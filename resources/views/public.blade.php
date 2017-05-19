@@ -9,10 +9,6 @@
     <meta charset="utf-8">
 
     <link rel="dns-prefetch" href="https://friendstub.com">
-    <link rel="prefetch" href="/css/styles.css">
-    <link rel="prefetch" href="/libs/material-design-iconic-font/css/material-design-iconic-font.min.css">
-    <link rel="prefetch" href="/libs/jquery/jquery.min.js?version=2.1.4">
-    <link rel="prefetch" href="/libs/jquery/jquery-ui.min.js?version=1.11.4">
     <link rel="prefetch" href="/libs/tinymce/tinymce.min.js?ver=4.4.3">
     <link rel="prefetch" href="/libs/highlightjs/highlight.min.js">
 

@@ -9,9 +9,6 @@
     <meta charset="utf-8">
 
     <link rel="dns-prefetch" href="https://friendstub.com">
-    <link rel="prefetch" href="/css/styles.css">
-    <link rel="prefetch" href="/libs/jquery/jquery.min.js?version=2.1.4">
-    <link rel="prefetch" href="/libs/jquery/jquery-ui.min.js?version=1.11.4">
     <link rel="prefetch" href="/libs/tinymce/tinymce.min.js?ver=4.4.3">
 
     <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
@@ -19,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="{{ baseUrl('/libs/jquery/jquery-ui.min.js?version=1.11.4') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
     <script src="{{ baseUrl('/libs/tinymce/tinymce.min.js?ver=4.4.3') }}"></script>
 
