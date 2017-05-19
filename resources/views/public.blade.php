@@ -18,9 +18,9 @@
 
     <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
     <link rel="stylesheet" media="print" href="{{ versioned_asset('css/print-styles.css') }}">
-    <link rel="stylesheet" href="{{ baseUrl("/libs/material-design-iconic-font/css/material-design-iconic-font.min.css") }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
-    <script src="{{ baseUrl("/libs/jquery/jquery.min.js?version=2.1.4") }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="{{ baseUrl('/libs/tinymce/tinymce.min.js?ver=4.4.3') }}"></script>
     @include('partials/custom-styles')
 
