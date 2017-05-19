@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('head')
-    <script src="{{ baseUrl("/libs/jquery-sortable/jquery-sortable.min.js") }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sortable/0.9.13/jquery-sortable-min.js"></script>
 @stop
 
 @section('content')
