@@ -14,6 +14,8 @@
     <meta property="og:description"   content="Online Documentation/Wiki Platform" />
     <meta property="og:image"         content="{{ baseUrl('/') }}logo.png">
     <meta property="og:image:type"    content="image/png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
 
     <link rel="dns-prefetch" href="https://s.gravatar.com">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
