@@ -2,10 +2,10 @@
 
 @section('content')
 
-  <meta property="og:url"           content="{{ $book->getUrl('/') }}" />
-  <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="{{$book->name}}" />
-  <meta property="og:description"   content="{{$book->description}}" />
+  <meta property="og:url"           content="{{ $book->getUrl('/') }}">
+  <meta property="og:type"          content="website">
+  <meta property="og:title"         content="{{$book->name}}">
+  <meta property="og:description"   content="{{$book->description}}">
   <meta property="og:image"         content="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
   <meta property="og:image:type"    content="image/png">
   <meta property="og:image:width" content="150">
