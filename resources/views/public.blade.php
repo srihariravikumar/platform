@@ -60,7 +60,5 @@
     @yield('content')
 </section>
 <script src="{{ versioned_asset('js/common.js') }}"></script>
-<script src="http://prismjs.com/prism.js" data-default-language="markup"></script>
-<link rel="stylesheet" href="http://prismjs.com/style.css" data-noprefix />
 </body>
 </html>
