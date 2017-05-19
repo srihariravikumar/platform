@@ -7,6 +7,12 @@
     <meta name="token" content="{{ csrf_token() }}">
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
+    
+    <meta property="og:url"           content="{{ baseUrl('/') }}" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="{{ setting('app-name') }}" />
+    <meta property="og:description"   content="Online Documentation/Wiki Platform" />
+    <meta property="og:image"         content="{{ baseUrl('/') }}/logo.png" />
 
     <link rel="dns-prefetch" href="https://s.gravatar.com">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">

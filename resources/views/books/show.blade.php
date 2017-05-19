@@ -2,15 +2,7 @@
 
 @section('content')
 
-  <meta property="og:url"           content="{{ $book->getUrl('/') }}" />
-  <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="{{$book->name}}" />
-  <meta property="og:description"   content="{{$book->description}}" />
-  <meta property="og:image"         content="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8" />
-  <meta property="twitter:card"          content="website" />
-  <meta property="twitter:title"         content="{{$book->name}}" />
-  <meta property="twitter:description"   content="{{$book->description}}" />
-  <meta property="twitter:image"         content="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8" />
+
 
     <div class="faded-small toolbar">
         <div class="container">
