@@ -1,6 +1,6 @@
 {
     "name": "doctub/platform",
-    "description": "DocTub documentation platform",
+    "description": "DocTub documentation and wiki platform",
     "keywords": ["DocTub", "Documentation"],
     "license": "MIT",
     "type": "project",
