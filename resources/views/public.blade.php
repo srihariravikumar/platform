@@ -8,9 +8,9 @@
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
 
-    <link rel="dns-prefetch" href="https://friendstub.com">
-    <link rel="prefetch" href="/libs/tinymce/tinymce.min.js?ver=4.4.3">
-    <link rel="prefetch" href="/libs/highlightjs/highlight.min.js">
+    <link rel="dns-prefetch" href="https://s.gravatar.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://chart.googleapis.com">
 
     <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
     <link rel="stylesheet" media="print" href="{{ versioned_asset('css/print-styles.css') }}">
