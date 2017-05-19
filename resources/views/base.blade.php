@@ -10,15 +10,13 @@
 
     <link rel="dns-prefetch" href="https://friendstub.com">
     <link rel="prefetch" href="/css/styles.css">
-    <link rel="prefetch" href="/libs/material-design-iconic-font/css/material-design-iconic-font.min.css">
     <link rel="prefetch" href="/libs/jquery/jquery.min.js?version=2.1.4">
     <link rel="prefetch" href="/libs/jquery/jquery-ui.min.js?version=1.11.4">
     <link rel="prefetch" href="/libs/tinymce/tinymce.min.js?ver=4.4.3">
-    <link rel="prefetch" href="/libs/highlightjs/highlight.min.js">
 
     <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
     <link rel="stylesheet" media="print" href="{{ versioned_asset('css/print-styles.css') }}">
-    <link rel="stylesheet" href="{{ baseUrl('/libs/material-design-iconic-font/css/material-design-iconic-font.min.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
     <script src="{{ baseUrl('/libs/jquery/jquery.min.js?version=2.1.4') }}"></script>
     <script src="{{ baseUrl('/libs/jquery/jquery-ui.min.js?version=1.11.4') }}"></script>
