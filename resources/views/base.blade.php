@@ -18,7 +18,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
-    <script src="{{ baseUrl('/libs/tinymce/tinymce.min.js?ver=4.4.3') }}"></script>
 
     @yield('head')
 
@@ -99,7 +98,7 @@
 @yield('bottom')
 <script src="{{ versioned_asset('js/common.js') }}"></script>
 @yield('scripts')
-     <script src="{{ baseUrl('/libs/highlightjs/highlight.min.js') }}"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
      <script>
       $(function() {
         var aCodes = document.getElementsByTagName('pre');
