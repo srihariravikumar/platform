@@ -1,0 +1,76 @@
+{
+    "name": "doctub/platform",
+    "description": "DocTub documentation platform",
+    "keywords": ["DocTub", "Documentation"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.4.*",
+        "ext-tidy": "*",
+        "intervention/image": "^2.3",
+        "laravel/socialite": "^3.0",
+        "barryvdh/laravel-ide-helper": "^2.2.3",
+        "barryvdh/laravel-debugbar": "^2.3.2",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "barryvdh/laravel-dompdf": "^0.8",
+        "predis/predis": "^1.1",
+        "gathercontent/htmldiff": "^0.2.1",
+        "barryvdh/laravel-snappy": "^0.3.1",
+        "laravel/browser-kit-testing": "^1.0",
+        "socialiteproviders/slack": "^3.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.0",
+        "symfony/css-selector": "3.1.*",
+        "symfony/dom-crawler": "3.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "BookStack\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "pre-update-cmd": [
+            "php -r \"!file_exists('bootstrap/cache/services.php') || @unlink('bootstrap/cache/services.php');\"",
+            "php -r \"!file_exists('bootstrap/cache/compiled.php') || @unlink('bootstrap/cache/compiled.php');\""
+        ],
+        "pre-install-cmd": [
+            "php -r \"!file_exists('bootstrap/cache/services.php') || @unlink('bootstrap/cache/services.php');\"",
+            "php -r \"!file_exists('bootstrap/cache/compiled.php') || @unlink('bootstrap/cache/compiled.php');\""
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize",
+            "php artisan cache:clear",
+            "php artisan view:clear"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ],
+        "refresh-test-database": [
+            "php artisan migrate:refresh --database=mysql_testing",
+            "php artisan db:seed --class=DummyContentSeeder --database=mysql_testing"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

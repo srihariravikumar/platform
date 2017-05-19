@@ -1,0 +1,184 @@
+
+/*
+* This file container all block styling including background shading,
+* margins, paddings & borders.
+*/
+
+
+/*
+* Background Shading
+*/
+.shaded {
+  background-color: #f1f1f1;
+  &.pos {
+    background-color: lighten($positive, 40%);
+  }
+  &.neg {
+    background-color: lighten($negative, 20%);
+  }
+  &.primary {
+    background-color: lighten($primary, 40%);
+  }
+  &.secondary {
+    background-color: lighten($secondary, 30%);
+  }
+}
+
+/*
+* Bordering
+*/
+.bordered {
+  border: 1px solid #BBB;
+  &.pos {
+    border-color: $positive;
+  }
+  &.neg {
+    border-color: $negative;
+  }
+  &.primary {
+    border-color: $primary;
+  }
+  &.secondary {
+    border-color: $secondary;
+  }
+  &.thick {
+    border-width: 2px;
+  }
+}
+.rounded {
+  border-radius: 3px;
+}
+
+/*
+* Padding
+*/
+.nopadding {
+  padding: 0;
+}
+.padded {
+  padding: $-l;
+  &.large {
+    padding: $-xl;
+  }
+  >h1, >h2, >h3, >h4 {
+    &:first-child {
+      margin-top: 0.1em;
+    }
+  }
+}
+.padded-vertical, .padded-top {
+  padding-top: $-m;
+  &.large {
+    padding-top: $-xl;
+  }
+}
+
+.padded-vertical, .padded-bottom {
+  padding-bottom: $-m;
+  &.large {
+    padding-bottom: $-xl;
+  }
+}
+.padded-horizontal, .padded-left {
+  padding-left: $-m;
+  &.large {
+    padding-left: $-xl;
+  }
+}
+.padded-horizontal, .padded-right {
+  padding-right: $-m;
+  &.large {
+    padding-right: $-xl;
+  }
+}
+
+/*
+* Margins
+*/
+.margins {
+  margin: $-l;
+  &.large {
+    margin: $-xl;
+  }
+}
+.margins-vertical, .margin-top {
+  margin-top: $-m;
+  &.large {
+    margin-top: $-xl;
+  }
+}
+.margins-vertical, .margin-bottom {
+  margin-bottom: $-m;
+  &.large {
+    margin-bottom: $-xl;
+  }
+}
+.margins-horizontal, .margin-left {
+  margin-left: $-m;
+  &.large {
+    margin-left: $-xl;
+  }
+}
+.margins-horizontal, .margin-right {
+  margin-right: $-m;
+  &.large {
+    margin-right: $-xl;
+  }
+}
+
+
+/**
+ * Callouts
+ */
+
+.callout {
+  border-left: 3px solid #BBB;
+  background-color: #EEE;
+  padding: $-s;
+  padding-left: $-xl;
+  display: block;
+  position: relative;
+  &:before {
+    font-family: 'Material-Design-Iconic-Font';
+    left: $-xs + 4px;
+    top: 50%;
+    margin-top: -9px;
+    //top: $-xs + 5px;
+    display: inline-block;
+    position: absolute;
+    font-size: 1.222em;
+    line-height: 1;
+  }
+  &.success {
+    border-left-color: $positive;
+    background-color: lighten($positive, 45%);
+    color: darken($positive, 16%);
+  }
+  &.success:before {
+    content: '\f269';
+  }
+  &.danger {
+    border-left-color: $negative;
+    background-color: lighten($negative, 34%);
+    color: darken($negative, 20%);
+  }
+  &.danger:before {
+    content: '\f1f2';
+  }
+  &.info {
+    border-left-color: $info;
+    background-color: lighten($info, 50%);
+    color: darken($info, 16%);
+  }
+  &.info:before {
+    content: '\f1f8';
+  }
+  &.warning {
+    border-left-color: $warning;
+    background-color: lighten($warning, 36%);
+    color: darken($warning, 16%);
+  }
+  &.warning:before {
+    content: '\f1f1';
+  }
+}
