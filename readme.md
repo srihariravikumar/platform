@@ -1,5 +1,6 @@
 # Source Code of DocTub Platform
 
+[![Build Status](https://travis-ci.org/doctub/platform.svg?branch=master)](https://travis-ci.org/doctub/platform)
 
 ## About DocTub
 
