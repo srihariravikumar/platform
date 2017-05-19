@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('head')
-    <script src="{{ baseUrl('/libs/tinymce/tinymce.min.js?ver=4.4.3') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.6.1/tinymce.min.js"></script>
 @stop
 
 @section('body-class', 'flexbox')
