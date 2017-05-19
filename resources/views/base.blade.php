@@ -7,7 +7,15 @@
     <meta name="token" content="{{ csrf_token() }}">
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
-
+    
+      <meta property="og:url"           content="{{ $book->getUrl('/') }}">
+  <meta property="og:type"          content="website">
+  <meta property="og:title"         content="{{$book->name}}">
+  <meta property="og:description"   content="{{$book->description}}">
+  <meta property="og:image"         content="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
+  <meta property="og:image:type"    content="image/png">
+  <meta property="og:image:width" content="150">
+  <meta property="og:image:height" content="150">
 
     <link rel="dns-prefetch" href="https://s.gravatar.com">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
