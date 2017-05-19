@@ -1,2 +1,10 @@
-<script src="http://prismjs.com/prism.js" data-default-language="markup"></script>
-<link rel="stylesheet" href="http://prismjs.com/style.css" data-noprefix />
+
+<script src="{{ baseUrl('/libs/highlightjs/highlight.min.js') }}"></script>
+<script>
+    $(function() {
+        var aCodes = document.getElementsByTagName('pre');
+        for (var i=0; i < aCodes.length; i++) {
+            hljs.highlightBlock(aCodes[i]);
+        }
+    });
+</script>
