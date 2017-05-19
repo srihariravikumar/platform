@@ -6,7 +6,7 @@
   <meta property="og:type"          content="website">
   <meta property="og:title"         content="{{$book->name}}">
   <meta property="og:description"   content="{{$book->description}}">
-  <meta property="og:image"         content="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
+  <meta property="og:image"         content="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
   <meta property="og:image:type"    content="image/png">
   <meta property="og:image:width" content="150">
   <meta property="og:image:height" content="150">
@@ -124,7 +124,7 @@
                 </div>
                 
                 <div class="activity">
-                  <h3>QR Code &nbsp;<a href="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8"><i style="color:#0288d1" class="zmdi zmdi-download"></i></a></h3>
+                  <h3>QR Code &nbsp;<a href="https://chart.googleapis.com/chart?chs=540x540&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8"><i style="color:#0288d1" class="zmdi zmdi-download"></i></a></h3>
                     <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
                   <h3>Share on Social</h3>
                     <iframe src="https://www.facebook.com/plugins/share_button.php?href={{ $book->getUrl('/') }}&layout=button_count&size=large&mobile_iframe=true&width=108&height=28&appId" width="108" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
