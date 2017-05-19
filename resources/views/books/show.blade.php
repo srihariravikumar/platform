@@ -2,7 +2,14 @@
 
 @section('content')
 
-
+  <meta property="og:url"           content="{{ $book->getUrl('/') }}" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="{{$book->name}}" />
+  <meta property="og:description"   content="{{$book->description}}" />
+  <meta property="og:image"         content="{{ baseUrl('/') }}logo.png">
+  <meta property="og:image:type"    content="image/png">
+  <meta property="og:image:width" content="150">
+  <meta property="og:image:height" content="150">
 
     <div class="faded-small toolbar">
         <div class="container">
