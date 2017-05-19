@@ -381,7 +381,7 @@ module.exports = function (ngApp, events) {
 
                 $input.on('paste', editorPaste);
 
-                // Handle image drop, Uploads images to BookStack.
+                // Handle image drop, Uploads images to DocTub.
                 function handleImageDrop(event) {
                     event.stopPropagation();
                     event.preventDefault();
