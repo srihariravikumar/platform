@@ -15,7 +15,7 @@
                                 <img class="avatar square huge" src="https://s.gravatar.com/avatar/{{ md5($user->email) }}?d=retro&r=x&s=120" alt="{{ $user->name }}">
                             </div>
                             <div>
-                                <h3 style="margin-top: 0;">{{ $user->name }}</h3>
+                                <h3 style="margin-top:0">{{ $user->name }}</h3>
                                 <p class="text-muted">
                                     {{ trans('entities.profile_user_for_x', ['time' => $user->created_at->diffForHumans(null, true)]) }}
                                 </p>
