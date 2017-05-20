@@ -130,7 +130,7 @@
         <table class="list-table">
             @foreach($role->users as $user)
                 <tr>
-                    <td style="line-height: 0;"><img class="avatar small" src="https://s.gravatar.com/avatar/{{ md5($user->email) }}?d=retro&r=x&s=120" alt="{{ $user->name }}"></td>
+                    <td style="line-height: 0;"><img class="avatar small" src="https://i1.wp.com/s.gravatar.com/avatar/{{ md5($user->email) }}?d=retro&r=x&s=120" alt="{{ $user->name }}"></td>
                     <td>
                         @if(userCan('users-manage') || $currentUser->id == $user->id)
                             <a href="{{ baseUrl("/settings/users/{$user->id}") }}">

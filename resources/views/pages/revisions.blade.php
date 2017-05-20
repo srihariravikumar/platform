@@ -32,7 +32,7 @@
                         <td>{{ $revision->name }}</td>
                         <td style="line-height: 0;">
                             @if($revision->createdBy)
-                                <img class="avatar" src="https://s.gravatar.com/avatar/{{ md5($revision->createdBy->email) }}?d=retro&r=x&s=120" alt="{{ $revision->createdBy->name }}">
+                                <img class="avatar" src="https://i1.wp.com/s.gravatar.com/avatar/{{ md5($revision->createdBy->email) }}?d=retro&r=x&s=120" alt="{{ $revision->createdBy->name }}">
                             @endif
                         </td>
                         <td> @if($revision->createdBy) {{ $revision->createdBy->name }} @else {{ trans('common.deleted_user') }} @endif</td>

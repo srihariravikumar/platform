@@ -46,7 +46,7 @@
             </tr>
             @foreach($users as $user)
                 <tr>
-                    <td style="line-height: 0;"><img class="avatar med" src="https://s.gravatar.com/avatar/{{ md5($user->email) }}?d=retro&r=x&s=120"></td>
+                    <td style="line-height: 0;"><img class="avatar med" src="https://i1.wp.com/s.gravatar.com/avatar/{{ md5($user->email) }}?d=retro&r=x&s=120"></td>
                     <td>
                         @if(userCan('users-manage') || $currentUser->id == $user->id)
                             <a href="{{ baseUrl("/user/{$user->id}") }}">
