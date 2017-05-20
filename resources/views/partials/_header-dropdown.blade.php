@@ -23,7 +23,7 @@
             <a href="{{ baseUrl('/settings') }}"><i style="color:#000" class="zmdi zmdi-settings zmdi-hc-fw zmdi-hc-lg"></i>Admin</a>
         </li>
         <li>
-            <a href="https://bitbucket.org/doctub/platform"><i style="color:#ff3d00" class="zmdi zmdi-code zmdi-hc-fw zmdi-hc-lg"></i>Code Base</a>
+            <a href="https://github.com/doctub/platform"><i style="color:#ff3d00" class="zmdi zmdi-code zmdi-hc-fw zmdi-hc-lg"></i>Code Base</a>
         </li>
         @endif
         <li>
