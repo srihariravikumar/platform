@@ -91,7 +91,7 @@
                 <div class="col-sm-6 faded">
                     <div class="action-buttons text-left">
                         <a href="https://doctub.com" class="text-primary text-button">© 2017 DocTub</a>
-                        <a style="color:#002bb8" href="https://creativecommons.org/licenses/by-sa/4.0/"><i style="color:#4caf50" class="zmdi zmdi-case-check"></i>CC BY-SA 4.0&nbsp;<img src="{{ baseUrl('/images') }}/ntab.svg"</img></a>
+                        <a style="color:#002bb8" href="https://creativecommons.org/licenses/by-sa/4.0/"><img style="height:10px" src="http://simpleicon.com/wp-content/uploads/creative-commons-2.svg"></img>CC BY-SA 4.0&nbsp;<img src="{{ baseUrl('/images') }}/ntab.svg"</img></a>
                     </div>
                 </div>
             </div>
