@@ -24,6 +24,7 @@
         </li>
         <li>
             <a href="https://github.com/doctub/platform"><i style="color:#ff3d00" class="zmdi zmdi-code zmdi-hc-fw zmdi-hc-lg"></i>Code Base</a>
+            <a href="https://ide.c9.io/yoginth/doctub"><i style="color:#ff3d00" class="zmdi zmdi-case-check zmdi-hc-fw zmdi-hc-lg"></i>Workspace</a>
         </li>
         @endif
         <li>
