@@ -12,7 +12,7 @@
                     <div class="col-md-7">
                         <div class="clearfix">
                             <div class="padded-right float left">
-                                <img class="avatar square huge" src="https://i1.wp.com/s.gravatar.com/avatar/{{ md5($user->email) }}?d=retro&r=x&s=120" alt="{{ $user->name }}">
+                                <img class="avatar square huge" src="https://s.gravatar.com/avatar/{{ md5($user->email) }}?d=retro&r=x&s=120" alt="{{ $user->name }}">
                             </div>
                             <div>
                                 <h3 style="margin-top: 0;">{{ $user->name }}</h3>

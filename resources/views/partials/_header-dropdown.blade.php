@@ -1,6 +1,6 @@
 <div class="dropdown-container" dropdown>
     <span class="user-name" dropdown-toggle>
-        <img class="avatar" src="https://i1.wp.com/s.gravatar.com/avatar/{{ md5($currentUser->email) }}?d=retro&r=x&s=120">
+        <img class="avatar" src="https://s.gravatar.com/avatar/{{ md5($currentUser->email) }}?d=retro&r=x&s=120">
         <span class="name" ng-non-bindable>{{ $currentUser->getShortName(9) }}</span> <i class="zmdi zmdi-caret-down"></i>
     </span>
     <ul>
@@ -24,7 +24,7 @@
         </li>
         <li>
             <a href="https://github.com/doctub/platform"><i style="color:#ff3d00" class="zmdi zmdi-code zmdi-hc-fw zmdi-hc-lg"></i>Code Base</a>
-            <a href="https://ide.c9.io/yoginth/doctub"><i style="color:#ff3d00" class="zmdi zmdi-case-check zmdi-hc-fw zmdi-hc-lg"></i>Workspace</a>
+            <a href="https://ide.c9.io/yoginth/doctub"><i style="color:#ff3d00" class="zmdi zmdi-case-check zmdi-hc-fw zmdi-hc-lg"></i>Work</a>
         </li>
         @endif
         <li>
