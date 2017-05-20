@@ -65,7 +65,7 @@ module.exports = function() {
         selector: '#html-editor',
         content_css: [
             window.baseUrl('/css/styles.css'),
-            window.baseUrl('/libs/material-design-iconic-font/css/material-design-iconic-font.min.css')
+            window.baseUrl('https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css')
         ],
         body_class: 'page-content',
         browser_spellcheck: true,
