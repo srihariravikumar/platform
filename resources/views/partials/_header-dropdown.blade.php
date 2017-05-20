@@ -15,7 +15,7 @@
             <a href="{{ baseUrl("/settings/users/{$currentUser->id}") }}" class="text-primary"><i style="color:#212121" class="zmdi zmdi-edit zmdi-hc-fw zmdi-hc-lg"></i>{{ trans('common.edit_profile') }}</a>
         </li>
         <li>
-            <a href="https://github.com/doctub/issues/issues/new" class="text-primary"><i style="color:#e64a19" class="zmdi zmdi-bug zmdi-hc-fw zmdi-hc-lg"></i>ReportBug</a>
+            <a href="https://github.com/doctub/issues/issues/new" class="text-primary"><i style="color:#e64a19" class="zmdi zmdi-bug zmdi-hc-fw zmdi-hc-lg"></i>Report&nbBug</a>
         </li>
         <hr>
         @if(signedInUser() && userCan('settings-manage'))
