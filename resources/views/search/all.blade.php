@@ -23,7 +23,7 @@
         <div class="row">
 
             <div class="col-md-6">
-                <h1>{{ trans('entities.search_results') }} for</h1>
+                <h1>{{ trans('entities.search_results') }}</h1>
                 <h6 class="text-muted">{{ trans_choice('entities.search_total_results_found', $totalResults, ['count' => $totalResults]) }}</h6>
                 @include('partials/entity-list', ['entities' => $entities])
                 @if ($hasNextPage)
