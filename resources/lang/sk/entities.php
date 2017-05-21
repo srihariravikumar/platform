@@ -224,7 +224,7 @@ return [
     /**
      * Profile View
      */
-    'profile_user_for_x' => 'Používateľ už :time',
+    'profile_user_for_x' => ':time',
     'profile_created_content' => 'Vytvorený obsah',
     'profile_not_created_pages' => ':userName nevytvoril žiadne stránky',
     'profile_not_created_chapters' => ':userName nevytvoril žiadne kapitoly',
