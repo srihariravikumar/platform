@@ -11,13 +11,12 @@
                     <div class="action-buttons text-left">
                         <a href="{{ back()->getTargetUrl() }}" class="text-button text-primary"><i class="zmdi zmdi-arrow-left"></i>{{ trans('common.back') }}</a>
                         <a href="{{ baseUrl('/') }}" class="text-button text-primary"><i class="zmdi zmdi-home"></i>Home</a>
-                        Editing as <img style="margin-bottom:-10px" class="avatar" src="https://s.gravatar.com/avatar/{{ md5($currentUser->email) }}?d=retro&r=x&s=120">
                     </div>
                 </div>
                 <div class="col-sm-4 faded text-center">
 
                     <div ng-show="draftsEnabled" dropdown class="dropdown-container draft-display">
-                        <a dropdown-toggle class="text-primary text-button"><span class="faded-text" ng-bind="draftText"></span>&nbsp; <i class="zmdi zmdi-more-vert"></i></a>
+                        <a dropdown-toggle class="text-primary text-button"><span class="faded-text" ng-bind="draftText"></span><img style="margin-bottom:-10px" class="avatar" src="https://s.gravatar.com/avatar/{{ md5($currentUser->email) }}?d=retro&r=x&s=120">&nbsp; <i class="zmdi zmdi-more-vert"></i></a>
                         <i class="zmdi zmdi-check-circle text-pos draft-notification" ng-class="{visible: draftUpdated}"></i>
                         <ul>
                             <li>
