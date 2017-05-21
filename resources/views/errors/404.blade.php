@@ -7,7 +7,7 @@
 
     <center>
     <h1>{{ $message or trans('errors.404_page_not_found') }}</h1>
-    <p><img style="height:200px" src="{{ baseUrl ('/images') }}/error.svg"></p>
+    <p><img style="height:200px" src="https://cdn.rawgit.com/doctub/static/b5be0e2b/images/error.svg"></p>
     <p><a href="{{ baseUrl('/') }}" class="button">{{ trans('errors.return_home') }}</a></p>
     </center>
 
