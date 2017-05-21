@@ -215,7 +215,7 @@ return [
     /**
      * Profile View
      */
-    'profile_user_for_x' => ':time',
+    'profile_user_for_x' => 'Joined:time',
     'profile_created_content' => 'Conteúdo Criado',
     'profile_not_created_pages' => ':userName não criou páginas',
     'profile_not_created_chapters' => ':userName não criou capítulos',

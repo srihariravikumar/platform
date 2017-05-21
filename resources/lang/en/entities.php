@@ -235,7 +235,7 @@ return [
     /**
      * Profile View
      */
-    'profile_user_for_x' => ':time',
+    'profile_user_for_x' => 'Joined :time',
     'profile_created_content' => 'Created Content',
     'profile_not_created_pages' => ':userName has not created any pages',
     'profile_not_created_chapters' => ':userName has not created any chapters',

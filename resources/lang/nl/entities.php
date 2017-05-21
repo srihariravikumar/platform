@@ -215,7 +215,7 @@ return [
     /**
      * Profile View
      */
-    'profile_user_for_x' => ':time',
+    'profile_user_for_x' => 'Joined :time',
     'profile_created_content' => 'Aangemaakte Inhoud',
     'profile_not_created_pages' => ':userName heeft geen pagina\'s gemaakt',
     'profile_not_created_chapters' => ':userName heeft geen hoofdstukken gemaakt',

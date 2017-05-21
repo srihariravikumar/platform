@@ -214,7 +214,7 @@ return [
     /**
      * Profile View
      */
-    'profile_user_for_x' => ':time',
+    'profile_user_for_x' => 'Joined :time',
     'profile_created_content' => 'Angelegte Inhalte',
     'profile_not_created_pages' => ':userName hat bisher keine Seiten angelegt.',
     'profile_not_created_chapters' => ':userName hat bisher keine Kapitel angelegt.',
