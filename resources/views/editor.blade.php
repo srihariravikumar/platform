@@ -10,7 +10,7 @@
     
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
-    <link rel="stylesheet" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/styles.css?version=v.prod">
+    <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
     <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
