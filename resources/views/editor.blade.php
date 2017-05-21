@@ -9,6 +9,7 @@
     <meta charset="utf-8">
     
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdn.rawgit.com">
 
     <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
     <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/print-styles.css?version=v.prod">
@@ -33,7 +34,7 @@
     </section>
 
 @yield('bottom')
-<script src="https://cdn.rawgit.com/doctub/static/6e9f8a63/js/common.js?v.prod"></script>
+<script src="{{ versioned_asset('js/common.js') }}"></script>
 @yield('scripts')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
      <script>
