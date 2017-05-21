@@ -1,4 +1,4 @@
-@extends('edit')
+@extends('editor')
 
 @section('head')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.6.1/tinymce.min.js"></script>
