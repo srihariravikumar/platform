@@ -17,7 +17,7 @@
                             <div>
                                 <h3 style="margin-top:0">{{ $user->name }}&nbsp;<img style="height:25px" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.5/assets/svg/1f60e.svg"></img></h3>
                                 <p class="text-muted">
-                                    <i class="zmdi zmdi-time"></i>{{ trans('entities.profile_user_for_x', ['time' => $user->created_at->diffForHumans(null, true)]) }}
+                                    <i style="color:rgb(142, 204, 76)" class="zmdi zmdi-time"></i>{{ trans('entities.profile_user_for_x', ['time' => $user->created_at->diffForHumans(null, true)]) }}
                                 </p>
                             </div>
                         </div>
