@@ -3,10 +3,7 @@
 
     {{ csrf_field() }}
 
-    {{--Header Bar--}}
-    <div class="faded-small toolbar">
-        <div class="container">
-            <div class="row">
+    
                 <div class="col-sm-4 faded">
                     <div class="action-buttons text-left">
                         <a href="{{ back()->getTargetUrl() }}" class="text-button text-primary"><i class="zmdi zmdi-arrow-left"></i>{{ trans('common.back') }}</a>
