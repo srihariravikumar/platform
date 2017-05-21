@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-sm-12 faded">
                     <div class="breadcrumbs">
-                        <center><h3><a href="{{ baseUrl("/search/all?term={$searchTerm}") }}" class="text-button"><i class="zmdi zmdi-search"></i>{{ $searchTerm }}</a></h3></center>
+                        <a href="{{ baseUrl("/search/all?term={$searchTerm}") }}" class="text-button"><i class="zmdi zmdi-search"></i>{{ $searchTerm }}</a>
                     </div>
                 </div>
             </div>
