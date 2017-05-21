@@ -13,8 +13,8 @@
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="https://chart.googleapis.com">
 
-    <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
-    <link rel="stylesheet" media="print" href="{{ versioned_asset('css/print-styles.css') }}">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/styles.css?version=v.prod">
+    <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
     
@@ -99,7 +99,7 @@
         </div>
      </div>
 @yield('bottom')
-<script src="{{ versioned_asset('js/common.js') }}"></script>
+<script src="https://cdn.rawgit.com/doctub/static/6e9f8a63/js/common.js?v.prod"></script>
 @yield('scripts')
 
 </body>

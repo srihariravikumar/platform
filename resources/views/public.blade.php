@@ -13,8 +13,8 @@
     <link rel="dns-prefetch" href="https://cdn.rawgit.com">
     <link rel="dns-prefetch" href="https://chart.googleapis.com">
 
-    <link rel="stylesheet" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/styles.css?version=v1.0-dev">
-    <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/print-styles.css?version=v1.0-dev">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/styles.css?version=v.prod">
+    <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
 
@@ -61,6 +61,6 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="https://cdn.rawgit.com/doctub/static/6e9f8a63/js/common.js?version=v1.0-dev"></script>
+<script src="https://cdn.rawgit.com/doctub/static/6e9f8a63/js/common.js?v.prod"></script>
 </body>
 </html>
