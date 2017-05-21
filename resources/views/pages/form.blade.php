@@ -3,7 +3,7 @@
 
     {{ csrf_field() }}
 
-    {{--Header Bar--}}
+    
     <div class="faded-small toolbar">
         <div class="container">
             <div class="row">
