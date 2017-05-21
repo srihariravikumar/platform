@@ -2,8 +2,8 @@
 <div class="page-editor flex-fill flex" ng-controller="PageEditController" drafts-enabled="{{ $draftsEnabled ? 'true' : 'false' }}" editor-type="{{ setting('app-editor') }}" page-id="{{ $model->id or 0 }}" page-new-draft="{{ $model->draft or 0 }}" page-update-draft="{{ $model->isDraft or 0 }}">
 
     {{ csrf_field() }}
-
     
+            <div class="row">
                 <div class="col-sm-4 faded">
                     <div class="action-buttons text-left">
                         <a href="{{ back()->getTargetUrl() }}" class="text-button text-primary"><i class="zmdi zmdi-arrow-left"></i>{{ trans('common.back') }}</a>
