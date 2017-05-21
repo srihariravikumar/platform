@@ -10,7 +10,7 @@
                 <div class="col-sm-4 faded">
                     <div class="action-buttons text-left">
                         <a href="{{ back()->getTargetUrl() }}" class="text-button text-primary"><i class="zmdi zmdi-arrow-left"></i>{{ trans('common.back') }}</a>
-                        <a onclick="$('body>header').slideToggle();" class="text-button text-primary"><i class="zmdi zmdi-swap-vertical"></i>{{ trans('entities.pages_edit_toggle_header') }}</a>
+                        <a href="{{ baseUrl('/') }}" class="text-button text-primary"><i class="zmdi zmdi-home"></i>Home</a>
                     </div>
                 </div>
                 <div class="col-sm-4 faded text-center">
