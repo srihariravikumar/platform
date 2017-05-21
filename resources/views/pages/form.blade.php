@@ -3,6 +3,10 @@
 
     {{ csrf_field() }}
 
+    {{--Header Bar--}}
+    <div class="faded-small toolbar">
+        <div class="container">
+            <div class="row">
                 <div class="col-sm-4 faded">
                     <div class="action-buttons text-left">
                         <a href="{{ back()->getTargetUrl() }}" class="text-button text-primary"><i class="zmdi zmdi-arrow-left"></i>{{ trans('common.back') }}</a>
@@ -42,6 +46,9 @@
                         <button type="submit" id="save-button" class="text-button text-pos"><i class="zmdi zmdi-floppy"></i>{{ trans('entities.pages_save') }}</button>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
 
     {{--Title input--}}
     <div class="title-input page-title clearfix" ng-non-bindable>
