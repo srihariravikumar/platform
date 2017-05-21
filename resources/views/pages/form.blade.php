@@ -44,6 +44,7 @@
                         </div>
 
                         <button type="submit" id="save-button" class="text-button text-pos"><i class="zmdi zmdi-floppy"></i>{{ trans('entities.pages_save') }}</button>
+                        <img class="avatar" src="https://s.gravatar.com/avatar/{{ md5($currentUser->email) }}?d=retro&r=x&s=120">
                     </div>
                 </div>
             </div>
