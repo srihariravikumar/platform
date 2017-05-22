@@ -65,7 +65,7 @@ module.exports = function() {
         selector: '#html-editor',
         content_css: [
             window.baseUrl('/css/styles.css'),
-            window.baseUrl('/libs/material-design-iconic-font/css/material-design-iconic-font.min.css')
+            window.baseUrl('/libs/icon-bundle/css/icon-bundle.css')
         ],
         body_class: 'page-content',
         browser_spellcheck: true,
