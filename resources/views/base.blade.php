@@ -8,11 +8,11 @@
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
     
-
     <link rel="dns-prefetch" href="https://s.gravatar.com">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
     <link rel="dns-prefetch" href="https://chart.googleapis.com">
-
+    
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/doctub/static@3.0/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static@2.0/css/styles.css?version=v.prod">
     <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/gh/doctub/static@2.0/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static@2.0/css/icon-bundle.css">
