@@ -17,7 +17,7 @@
     <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/master/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdn.rawgit.com/doctub/static/master/css/icon-bundle.css">
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/doctub/static/master/js/jquery.min.js"></script>
     @include('partials/custom-styles')
 
     <!-- Custom user content -->
