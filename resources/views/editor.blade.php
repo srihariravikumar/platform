@@ -10,13 +10,13 @@
     
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
     
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/doctub/static@3.0/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static@2.0/css/styles.css?version=v.prod">
-    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/gh/doctub/static@2.0/css/print-styles.css?version=v.prod">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static@2.0/css/icon-bundle.css">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/doctub/static@4.0/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static@4.0/css/styles.css?version=v.prod">
+    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/gh/doctub/static@4.0/css/print-styles.css?version=v.prod">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static@4.0/css/icon-bundle.css">
     
-    <script src="https://cdn.jsdelivr.net/gh/doctub/static@2.0/js/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/doctub/static@2.0/js/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/js/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
@@ -34,9 +34,9 @@
     </section>
 
 @yield('bottom')
-<script src="https://cdn.jsdelivr.net/gh/doctub/static@2.0/js/common.js?version=v.prod"></script>
+<script src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/js/common.js?version=v.prod"></script>
 @yield('scripts')
-    <script src="https://cdn.jsdelivr.net/gh/doctub/static@2.0/js/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/js/highlight.js"></script>
      <script>
       $(function() {
         var aCodes = document.getElementsByTagName('pre');
