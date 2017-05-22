@@ -120,7 +120,7 @@
 @stop
 
 @section('scripts')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinyColorPicker/1.1.1/jqColorPicker.min.js"></script>
+    <script src="https://cdn.rawgit.com/doctub/static/master/js/color-picker.js"></script>
     <script type="text/javascript">
         $('#setting-app-color').colorPicker({
             opacity: false,

@@ -1,7 +1,7 @@
 @extends('editor')
 
 @section('head')
-    <script src="https://cdn.rawgit.com/doctub/static/master/js/tinymce.js"></script>
+    <script src="https://cdn.rawgit.com/doctub/static/master/js/tinymce/tinymce.min.js"></script>
 @stop
 
 @section('body-class', 'flexbox')
