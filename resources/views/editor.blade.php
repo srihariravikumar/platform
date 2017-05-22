@@ -11,7 +11,7 @@
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="https://cdn.rawgit.com">
 
-    <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
+    <link rel="stylesheet" href="view-source:https://cdn.rawgit.com/doctub/static/2.0/css/styles.css?version=v.prod">
     <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/1.0/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdn.rawgit.com/doctub/static/1.0/css/icon-bundle.css">
     
