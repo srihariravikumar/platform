@@ -8,7 +8,7 @@
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
     
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
     <link rel="dns-prefetch" href="https://cdn.rawgit.com">
 
     <link rel="stylesheet" href="view-source:https://cdn.rawgit.com/doctub/static/2.0/css/styles.css?version=v.prod">

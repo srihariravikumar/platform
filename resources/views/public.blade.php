@@ -9,7 +9,6 @@
     <meta charset="utf-8">
 
     <link rel="dns-prefetch" href="https://s.gravatar.com">
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="https://cdn.rawgit.com">
     <link rel="dns-prefetch" href="https://chart.googleapis.com">
 
