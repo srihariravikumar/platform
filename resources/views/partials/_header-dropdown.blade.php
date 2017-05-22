@@ -25,6 +25,7 @@
         <li>
             <a href="https://github.com/doctub/platform"><i style="color:#ff3d00" class="zmdi zmdi-code zmdi-hc-fw zmdi-hc-lg"></i>Code Base</a>
             <a href="https://ide.c9.io/yoginth/doctub"><i style="color:#ff3d00" class="zmdi zmdi-case-check zmdi-hc-fw zmdi-hc-lg"></i>Workspace</a>
+            <a href="https://doctub-cd.deployhq.com/"><i style="color:#00bfa5" class="zmdi zmdi-portable-wifi zmdi-hc-fw zmdi-hc-lg"></i>DeployHQ</a>            
         </li>
         @endif
         <li>
