@@ -14,7 +14,7 @@
     <link rel="dns-prefetch" href="https://chart.googleapis.com">
 
     <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
-    <link rel="stylesheet" media="print" href="{{ versioned_asset('css/print-styles.css') }}">
+    <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/master/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
 
@@ -37,7 +37,7 @@
 
                 <a href="{{ baseUrl('/') }}" class="logo">
                     @if(setting('app-logo', '') !== 'none')
-                        <img class="logo-image" src="https://cdn.rawgit.com/doctub/static/b5be0e2b/images/logo.svg" alt="Logo">
+                        <img class="logo-image" src="https://cdn.rawgit.com/doctub/static/master/images/logo.svg" alt="Logo">
                     @endif
                     @if (setting('app-name-header'))
                         <span class="logo-text">{{ setting('app-name') }}</span>
@@ -61,6 +61,6 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="{{ versioned_asset('js/common.js') }}"></script>
+<script src="https://cdn.rawgit.com/doctub/static/master/js/common.js?version=v.prod"></script>
 </body>
 </html>

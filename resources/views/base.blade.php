@@ -15,7 +15,7 @@
     <link rel="dns-prefetch" href="https://chart.googleapis.com">
 
     <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
-    <link rel="stylesheet" media="print" href="{{ versioned_asset('css/print-styles.css') }}">
+    <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/master/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
     
@@ -43,7 +43,7 @@
                 <div class="col-lg-4 col-sm-4" ng-non-bindable>
                     <a href="{{ baseUrl('/') }}" class="logo">
                         @if(setting('app-logo', '') !== 'none')
-                            <img class="logo-image" src="https://cdn.rawgit.com/doctub/static/b5be0e2b/images/logo.svg" alt="Logo">
+                            <img class="logo-image" src="https://cdn.rawgit.com/doctub/static/master/images/logo.svg" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
                             <span class="logo-text">{{ setting('app-name') }}</span>
@@ -93,14 +93,14 @@
                 <div class="col-sm-6 faded">
                     <div class="action-buttons text-left">
                         <a href="https://doctub.com" class="text-primary text-button">© 2017 DocTub</a>
-                        <a style="color:#002bb8" href="https://creativecommons.org/licenses/by-sa/4.0/"><i style="color:#4caf50" class="zmdi zmdi-case-check"></i>CC BY-SA 4.0&nbsp;<img src="https://cdn.rawgit.com/doctub/static/b5be0e2b/images/ntab.svg"</img></a>
+                        <a style="color:#002bb8" href="https://creativecommons.org/licenses/by-sa/4.0/"><i style="color:#4caf50" class="zmdi zmdi-case-check"></i>CC BY-SA 4.0&nbsp;<img src="https://cdn.rawgit.com/doctub/static/master/images/ntab.svg"</img></a>
                     </div>
                 </div>
             </div>
         </div>
      </div>
 @yield('bottom')
-<script src="{{ versioned_asset('js/common.js') }}"></script>
+<script src="https://cdn.rawgit.com/doctub/static/master/js/common.js?version=v.prod"></script>
 @yield('scripts')
 
 </body>

@@ -12,7 +12,7 @@
     <link rel="dns-prefetch" href="https://cdn.rawgit.com">
 
     <link rel="stylesheet" href="{{ versioned_asset('css/styles.css') }}">
-    <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/c9c172f9/css/print-styles.css?version=v.prod">
+    <link rel="stylesheet" media="print" href="https://cdn.rawgit.com/doctub/static/master/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -34,7 +34,7 @@
     </section>
 
 @yield('bottom')
-<script src="{{ versioned_asset('js/common.js') }}"></script>
+<script src="https://cdn.rawgit.com/doctub/static/master/js/common.js?version=v.prod"></script>
 @yield('scripts')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
      <script>
