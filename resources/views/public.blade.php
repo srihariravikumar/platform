@@ -10,6 +10,7 @@
 
     <link rel="dns-prefetch" href="https://s.gravatar.com">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
     <link rel="dns-prefetch" href="https://chart.googleapis.com">
     
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/favicon.ico" type="image/x-icon"/>
