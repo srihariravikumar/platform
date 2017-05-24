@@ -1,7 +1,7 @@
 <div class="image-picker" image-picker="{{$name}}" data-default-image="{{ $defaultImage }}" data-resize-height="{{ $resizeHeight }}" data-resize-width="{{ $resizeWidth }}" data-current-id="{{ $currentId or '' }}" data-resize-crop="{{ $resizeCrop or '' }}">
 
     <div>
-        <img @if($currentImage && $currentImage !== 'none') src="https://s.gravatar.com/avatar/{{ md5($user->email) }}?d=retro&r=x&s=120" @else src="https://s.gravatar.com/avatar/default?d=retro&r=x&s=120" @endif  class="{{$imageClass}} @if($currentImage=== 'none') none @endif" alt="{{ trans('components.image_preview') }}">
+        <img @if($currentImage && $currentImage !== 'none') src="https://s.gravatar.com/avatar/{{ md5($user->email) }}?d=identicon&r=x&s=120" @else src="https://s.gravatar.com/avatar/default?d=identicon&r=x&s=120" @endif  class="{{$imageClass}} @if($currentImage=== 'none') none @endif" alt="{{ trans('components.image_preview') }}">
     </div>
 
     @if ($showRemove)
