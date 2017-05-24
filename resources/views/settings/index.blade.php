@@ -3,7 +3,6 @@
 @section('content')
 
     @include('settings/navbar', ['selected' => 'settings'])
-    @include('settings/navbar', ['selected' => 'roles'])
 
 <div class="container small settings-container">
 
@@ -48,11 +47,7 @@
             <div class="col-md-6">
                 <div class="form-group" id="logo-control">
                     <label for="setting-app-logo">Stats</label>      
-                    @foreach($roles as $role)
-                    <tr>
-                    <td class="text-center">{{ $role->users->count() }}</td>
-                    </tr>
-                    @endforeach
+                    
                 
                 </div>
                 <div class="form-group" id="color-control">
