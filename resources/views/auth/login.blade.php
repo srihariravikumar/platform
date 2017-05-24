@@ -1,4 +1,4 @@
-@extends('bas')
+@extends('public')
 
 @section('header-buttons')
     @if(setting('registration-enabled', false))
