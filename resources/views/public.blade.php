@@ -39,8 +39,7 @@
                         <img class="logo-image" src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/images/logo.svg" alt="Logo">
                     @endif
                     @if (setting('app-name-header'))
-                        <span class="logo-text">{{ setting('app-name') }}</span>
-                        
+                        <span class="logo-text"><b>Doc</b>Tub</span>
                     @endif
                 </a>
             </div>
