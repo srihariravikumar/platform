@@ -40,19 +40,7 @@
                     @endif
                     @if (setting('app-name-header'))
                         <span class="logo-text">{{ setting('app-name') }}</span>
-                        <a href="https://doctub.github.io/hire" style="
-    position: relative;
-    text-transform: uppercase;
-    background: #f2f5fd;
-    border-radius: 4px;
-    display: inline-block;
-    float: left;
-    margin-top: 22px;
-    color: #212121;
-    padding: 6px 8px;
-    font-size: 12px;
-    line-height: 1em;
-">We are hiring!</a>
+                        
                     @endif
                 </a>
             </div>
