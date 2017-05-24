@@ -17,8 +17,8 @@
     <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/css/print-styles.css?version=v.prod">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/css/icon-bundle.css">
     
-    <script src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/js/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/js/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.ui/1.11.4/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
