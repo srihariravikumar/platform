@@ -1,0 +1,21 @@
+Paths for JS Delivr
+
+/platform/resources/views/base.blade.php
+/platform/resources/views/editor.blade.php
+/platform/resources/views/public.blade.php
+/platform/resources/views/books/sort.blade.php
+/platform/resources/views/errors/404.blade.php
+/platform/resources/views/errors/500.blade.php
+/platform/resources/views/pages/_breadcrumbs.blade.php
+/platform/resources/views/pages/edit.blade.php
+/platform/resources/views/partials/highlight.blade.php
+/platform/resources/views/settings/index.blade.php
+/platform/resources/views/users/profile.blade.php
+
+Paths for Gravatar
+/platform/resources/views/components/image-picker.blade.php
+/platform/resources/views/users/index.blade.php
+/platform/resources/views/users/profile.blade.php
+/platform/resources/views/partials/_header-dropdown.blade.php
+/platform/resources/views/partials/activity-item.blade.php
+/platform/resources/views/settings/roles/form.blade.php
