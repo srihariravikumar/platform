@@ -12,7 +12,7 @@
                     <div class="col-md-7">
                         <div class="clearfix">
                             <div class="padded-right float left">
-                                <img class="avatar square huge" src="https://s.gravatar.com/avatar/{{ md5($user->email) }}?d=identicon&r=x&s=00" alt="{{ $user->name }}">
+                                <img class="avatar square huge" src="https://s.gravatar.com/avatar/{{ md5($user->email) }}?d=identicon&r=x&s=200" alt="{{ $user->name }}">
                             </div>
                             <div>
                                 <h3 style="margin-top:0">{{ $user->name }}&nbsp;<img style="height:25px" src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/favicon.ico"></img></h3>
