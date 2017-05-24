@@ -1,4 +1,4 @@
-@extends('base')
+@extends('public')
 
 @section('header-buttons')
     <a href="{{ baseUrl("/login") }}"><i class="zmdi zmdi-sign-in"></i>{{ trans('auth.log_in') }}</a>
