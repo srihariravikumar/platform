@@ -37,7 +37,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', '') === 'http://bookstack.dev' ? '' : env('APP_URL', ''),
+    'url' => 'https://friendstub.com',
 
     /*
     |--------------------------------------------------------------------------
