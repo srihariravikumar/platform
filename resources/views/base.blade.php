@@ -12,13 +12,13 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
     <link rel="dns-prefetch" href="https://chart.googleapis.com">
     
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/doctub/static@4.0/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static@4.0/css/styles.css?version=v.prod">
-    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/gh/doctub/static@4.0/css/print-styles.css?version=v.prod">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static@4.0/css/icon-bundle.css">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@1.0/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@1.0/css/styles-bundle.min.css?version=v.prod">
+    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@1.0/css/print-styles.css?version=v.prod">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@1.0/css/icon-bundle.css">
     
-    <script src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/js/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/js/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@1.0/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@1.0/js/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
@@ -41,7 +41,7 @@
                 <div class="col-lg-4 col-sm-4" ng-non-bindable>
                     <a href="{{ baseUrl('/') }}" class="logo">
                         @if(setting('app-logo', '') !== 'none')
-                            <img class="logo-image" src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/images/logo.svg" alt="Logo">
+                            <img class="logo-image" src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@1.0/images/logo.svg" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
                             <span class="logo-text">{{ setting('app-name') }}</span>
@@ -86,7 +86,7 @@
         </div>
     </div>
 @yield('bottom')
-<script src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/js/common.js?version=v.prod"></script>
+<script src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@1.0/js/common.js?version=v.prod"></script>
 @yield('scripts')
 
 </body>
