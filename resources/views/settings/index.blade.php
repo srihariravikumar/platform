@@ -3,6 +3,7 @@
 @section('content')
 
     @include('settings/navbar', ['selected' => 'settings'])
+    @include('settings/navbar', ['selected' => 'roles'])
 
 <div class="container small settings-container">
 
