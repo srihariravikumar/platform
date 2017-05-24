@@ -44,8 +44,8 @@ return [
     ],
 
     'github'   => [
-        'client_id'     => env('GITHUB_APP_ID', false),
-        'client_secret' => env('GITHUB_APP_SECRET', false),
+        'client_id'     => '5cea672d596ddfd79f75',
+        'client_secret' => '',
         'redirect'      => env('APP_URL') . '/login/service/github/callback',
         'name'          => 'GitHub',
     ],
