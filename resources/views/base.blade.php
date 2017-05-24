@@ -85,18 +85,6 @@
             <i class="zmdi zmdi-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
         </div>
     </div>
-    <div class="faded-footer toolbar">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 faded">
-                    <div class="action-buttons text-left">
-                        <a href="https://doctub.com" class="text-primary text-button">© 2017 DocTub</a>
-                        <a style="color:#002bb8" href="https://creativecommons.org/licenses/by-sa/4.0/"><i style="color:#4caf50" class="zmdi zmdi-case-check"></i>CC BY-SA 4.0&nbsp;<img src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/images/ntab.svg"</img></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </div>
 @yield('bottom')
 <script src="https://cdn.jsdelivr.net/gh/doctub/static@4.0/js/common.js?version=v.prod"></script>
 @yield('scripts')
