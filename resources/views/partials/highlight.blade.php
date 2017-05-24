@@ -1,5 +1,5 @@
 
-<script src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@1.0/js/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/js/highlight.js"></script>
 <script>
     $(function() {
         var aCodes = document.getElementsByTagName('pre');
