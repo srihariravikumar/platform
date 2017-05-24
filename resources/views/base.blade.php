@@ -44,7 +44,7 @@
                             <img class="logo-image" src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/images/logo.svg" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
-                            <span class="logo-text"><b>Doc</b>Tub</span>
+                            <span class="logo-text"><b>Doc</b><i>Tub</i></span>
                         @endif
                     </a>
                 </div>
