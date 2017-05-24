@@ -1,5 +1,6 @@
 <style id="custom-styles" data-color="{{ setting('app-color') }}" data-color-light="{{ setting('app-color-light') }}">
     header, #back-to-top, .primary-background {
+        border-top: 3px solid #F48024;
         background-color: {{ setting('app-color') }} !important;
     }
     .faded-small, .primary-background-light {
