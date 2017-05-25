@@ -8,12 +8,12 @@
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta charset="utf-8">
     
-    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+    <link rel="dns-prefetch" href="https://cdn-doctub.netlify.com/">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
     
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/css/styles-bundle.min.css">
-    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/css/print-styles.css">
+    <link rel="icon" href="https://cdn-doctub.netlify.com/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn-doctub.netlify.com/css/styles-bundle.min.css">
+    <link rel="stylesheet" media="print" href="https://cdn-doctub.netlify.com/css/print-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -35,7 +35,7 @@
     </section>
 
 @yield('bottom')
-<script src="https://cdn.jsdelivr.net/gh/doctub/static-cdn@2.0/js/common.js"></script>
+<script src="https://cdn-doctub.netlify.com/js/common.js"></script>
 @yield('scripts')
 </body>
 </html>
