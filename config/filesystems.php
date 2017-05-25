@@ -21,7 +21,7 @@ return [
     |
     */
 
-    'default' => env('STORAGE_TYPE', 'ftp'),
+    'default' => env('STORAGE_TYPE', 'local'),
 
     /*
     |--------------------------------------------------------------------------
@@ -67,14 +67,13 @@ return [
 
         'ftp' => [
             'driver'   => 'ftp',
-            'host'     => 'ftp.rf.gd',
-            'username' => 'rfgd_20143056',
-            'password' => '1sep1998yoginth',
-            'port'     => 21,
-            'root'     => '/home/vol9_5/rf.gd/rfgd_20143056 ',
+            'host'     => 'ftp.example.com',
+            'username' => 'your-username',
+            'password' => 'your-password',
 
             // Optional FTP Settings...
-            // 
+            // 'port'     => 21,
+            // 'root'     => '',
             // 'passive'  => true,
             // 'ssl'      => true,
             // 'timeout'  => 30,
