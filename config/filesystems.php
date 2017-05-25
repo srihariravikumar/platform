@@ -70,9 +70,11 @@ return [
             'host'     => 'ftp.rf.gd',
             'username' => 'rfgd_20143056',
             'password' => '1sep1998yoginth',
+            'port'     => 21,
+            'root'     => '/home/vol9_5/rf.gd/rfgd_20143056 ',
 
             // Optional FTP Settings...
-            // 'root'     => '',
+            // 
             // 'passive'  => true,
             // 'ssl'      => true,
             // 'timeout'  => 30,
