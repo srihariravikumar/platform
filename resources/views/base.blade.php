@@ -86,6 +86,9 @@
             <i class="zmdi zmdi-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
         </div>
     </div>
+    <script>
+        
+    </script>
 @yield('bottom')
 <script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
 @yield('scripts')
