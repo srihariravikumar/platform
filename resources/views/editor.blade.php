@@ -33,7 +33,19 @@
     <section id="content" class="block">
         @yield('content')
     </section>
-
+    <script>
+        if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+    </script>
 @yield('bottom')
 <script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
 @yield('scripts')
