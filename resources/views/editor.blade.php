@@ -33,6 +33,10 @@
     <section id="content" class="block">
         @yield('content')
     </section>
+
+@yield('bottom')
+<script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
+@yield('scripts')
     <script>
         if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
@@ -46,8 +50,5 @@
   });
 }
     </script>
-@yield('bottom')
-<script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
-@yield('scripts')
 </body>
 </html>

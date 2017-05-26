@@ -86,12 +86,21 @@
             <i class="zmdi zmdi-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
         </div>
     </div>
-    <script>
-        
-    </script>
 @yield('bottom')
 <script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
 @yield('scripts')
-
+    <script>
+        if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+    </script>
 </body>
 </html>
