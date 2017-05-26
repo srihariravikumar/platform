@@ -11,8 +11,8 @@
     <link rel="dns-prefetch" href="https://cdn-doctub.netlify.com/">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
     
-    <link rel="icon" href="https://cdn-doctub.netlify.com/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdn-doctub.netlify.com/css/styles-bundle..css">
+    <link rel="icon" href="https://cdn-doctub.netlify.com/images/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn-doctub.netlify.com/css/styles-bundle.css">
     <link rel="stylesheet" media="print" href="https://cdn-doctub.netlify.com/css/print-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
     
