@@ -89,12 +89,6 @@
 @yield('bottom')
 <script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
 @yield('scripts')
-    <script>
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js', {
-    scope: '/'
-  });
-}
-    </script>
+
 </body>
 </html>

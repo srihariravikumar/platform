@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
     
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
-    <script src="https://doctub-cdn.firebaseapp.com/js/jquery-ui.min.js"></script>
+    <script src="https://doctub-cdn.firebaseapp.com//jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
@@ -37,12 +37,5 @@
 @yield('bottom')
 <script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
 @yield('scripts')
-    <script>
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js', {
-    scope: '/'
-  });
-}
-    </script>
 </body>
 </html>
