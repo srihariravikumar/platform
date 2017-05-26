@@ -1,58 +1,29 @@
-var CACHE_NAME = 'my-site-cache-v1';
-var urlsToCache = [
-  'https://doctub-cdn.firebaseapp.com/css/print-styles.css',
-  'https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css',
-  'https://doctub-cdn.firebaseapp.com/js/jquery.min.js',
-  'https://doctub-cdn.firebaseapp.com/js/jquery-ui.min.js',
-];
-
-self.addEventListener('install', function(event) {
-  // Perform install steps
+self.addEventListener("install", function(event) {
+  console.log('WORKER: install event in progress.');
   event.waitUntil(
-    caches.open(CACHE_NAME)
+    /* The caches built-in is a promise-based API that helps you cache responses,
+       as well as finding and deleting them.
+    */
+    caches
+      /* You can open a cache by name, and this method returns a promise. We use
+         a versioned cache name here so that we can remove old cache entries in
+         one fell swoop later, when phasing out an older service worker.
+      */
+      .open(version + 'fundamentals')
       .then(function(cache) {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
+        /* After the cache is opened, we can fill it with the offline fundamentals.
+           The method below will add all resources we've indicated to the cache,
+           after making HTTP requests for each of them.
+        */
+        return cache.addAll([
+          'https://doctub-cdn.firebaseapp.com/css/print-styles.css',
+          'https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css',
+          'https://doctub-cdn.firebaseapp.com/js/jquery.min.js',
+          'https://doctub-cdn.firebaseapp.com/js/jquery-ui.min.js',
+        ]);
+      })
+      .then(function() {
+        console.log('WORKER: install completed');
       })
   );
-});
-
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.match(event.request)
-      .then(function(response) {
-        // Cache hit - return response
-        if (response) {
-          return response;
-        }
-
-        // IMPORTANT: Clone the request. A request is a stream and
-        // can only be consumed once. Since we are consuming this
-        // once by cache and once by the browser for fetch, we need
-        // to clone the response.
-        var fetchRequest = event.request.clone();
-
-        return fetch(fetchRequest).then(
-          function(response) {
-            // Check if we received a valid response
-            if(!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
-            }
-
-            // IMPORTANT: Clone the response. A response is a stream
-            // and because we want the browser to consume the response
-            // as well as the cache consuming the response, we need
-            // to clone it so we have two streams.
-            var responseToCache = response.clone();
-
-            caches.open(CACHE_NAME)
-              .then(function(cache) {
-                cache.put(event.request, responseToCache);
-              });
-
-            return response;
-          }
-        );
-      })
-    );
 });

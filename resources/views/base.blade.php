@@ -90,16 +90,15 @@
 <script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
 @yield('scripts')
     <script>
-        if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
+if ('serviceWorker' in navigator) {
+  console.log('CLIENT: service worker registration in progress.');
+  navigator.serviceWorker.register('https://cdn.css-tricks.com/service-worker.js').then(function() {
+    console.log('CLIENT: service worker registration complete.');
+  }, function() {
+    console.log('CLIENT: service worker registration failure.');
   });
+} else {
+  console.log('CLIENT: service worker is not supported.');
 }
     </script>
 </body>
