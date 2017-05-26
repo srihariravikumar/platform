@@ -15,7 +15,7 @@
                                 <img class="avatar square huge" src="https://s.gravatar.com/avatar/{{ md5($user->email) }}?d=identicon&r=x&s=200" alt="{{ $user->name }}">
                             </div>
                             <div>
-                                <h3 style="margin-top:0">{{ $user->name }}&nbsp;<img style="height:25px" src="https://cdn-doctub.netlify.com/favicon.ico"></img></h3>
+                                <h3 style="margin-top:0">{{ $user->name }}&nbsp;<img style="height:25px" src="https://cdn-doctub.netlify.com/images/badge.png"></img></h3>
                                 <p class="text-muted">
                                     <i style="color:rgb(142, 204, 76)" class="zmdi zmdi-time"></i>{{ trans('entities.profile_user_for_x', ['time' => $user->created_at->diffForHumans(null, true)]) }}
                                 </p>
