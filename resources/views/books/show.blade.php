@@ -125,7 +125,7 @@
                 
                 <div class="activity">
                   <h3>QR Code &nbsp;<a href="https://chart.googleapis.com/chart?chs=547x54&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8"><i style="color:#0288d1" class="zmdi zmdi-download"></i></a></h3>
-                    <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
+                    <div id="qrcode"></div>
                   <h3>Share on Social</h3>
                     <iframe src="https://www.facebook.com/plugins/share_button.php?href={{ $book->getUrl('/') }}&layout=button_count&size=large&mobile_iframe=true&width=108&height=28&appId" width="108" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                     <h3>{{ trans('entities.recent_activity') }}</h3>
@@ -134,5 +134,16 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script>
+        $("#qrcode").qrcode({
+            render: 'canvas',
+            width: 200,
+	        height: 200,
+	        fill: 'black',
+	        text: '{{ $book->getUrl('/') }}',
+
+        });
+    </script>
 
 @stop
