@@ -9,15 +9,15 @@
     <meta charset="utf-8">
     
     <link rel="dns-prefetch" href="https://doctub-cdn.firebaseapp.com/">
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
+    <link rel="dns-prefetch" href="https://doctub-cdn.firebaseapp.com/">
     
     <link rel="icon" href="https://doctub-cdn.firebaseapp.com/images/logo.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/styles-bundle.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.firebaseapp.com/css/print-styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
+    <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
+    <script src="https://doctub-cdn.firebaseapp.com/js/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
