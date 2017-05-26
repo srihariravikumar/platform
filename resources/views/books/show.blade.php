@@ -134,7 +134,7 @@
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script src="http://www.paulonavarro.com/bibliotecas/js/jquery.qrcode-0.7.0.min.js"></script>
     <script>
         $("#qrcode").qrcode({
             render: 'canvas',
