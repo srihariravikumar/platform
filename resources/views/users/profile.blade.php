@@ -12,7 +12,7 @@
                     <div class="col-md-7">
                         <div class="clearfix">
                             <div class="padded-right float left">
-                                <img class="avatar square huge" src="https://0.gravatar.com/avatar/{{ md5(strtolower(trim($user->email))) }}?d=identicon&r=x&s=200" alt="{{ $user->name }}">
+                                <img class="avatar square huge" src="https://secure.gravatar.com/avatar/{{ md5(strtolower(trim($user->email))) }}?d=identicon&r=x&s=200" alt="{{ $user->name }}">
                             </div>
                             <div>
                                 <h3 style="margin-top:0">{{ $user->name }}&nbsp;<img style="height:25px" src="https://doctub-cdn.firebaseapp.com/images/badge.png"></img></h3>

@@ -1,6 +1,6 @@
 <div class="dropdown-container" dropdown>
     <span class="user-name" dropdown-toggle>
-        <img class="avatar" src="https://s.gravatar.com/avatar/{{ md5($currentUser->email) }}?d=identicon&r=x&s=80">
+        <img class="avatar" src="https://secure.gravatar.com/avatar/{{ md5(strtolower(trim($currentUser->email))) }}?d=identicon&r=x&s=80">
         <span class="name" ng-non-bindable>{{ $currentUser->getShortName(9) }}</span> <i class="zmdi zmdi-caret-down"></i>
     </span>
     <ul>

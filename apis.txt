@@ -19,3 +19,4 @@ Paths for Gravatar
 /platform/resources/views/partials/_header-dropdown.blade.php
 /platform/resources/views/partials/activity-item.blade.php
 /platform/resources/views/settings/roles/form.blade.php
+/platform/resources/views/pages/revisions.blade.php
