@@ -9,8 +9,11 @@
     <meta name="theme-color" content="#F48024">
     <meta charset="utf-8">
     
+    <link rel="dns-prefetch" href="https://s.gravatar.com/">
     <link rel="dns-prefetch" href="https://doctub-cdn.firebaseapp.com/">
-
+    <link rel="dns-prefetch" href="https://chart.googleapis.com/">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+    
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="https://doctub-cdn.firebaseapp.com/images/logo.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/styles-bundle.css">
