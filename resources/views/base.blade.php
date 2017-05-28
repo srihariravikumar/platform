@@ -89,7 +89,7 @@
         </div>
     </div>
     <footer>
-     <div class="faded-footer toolbar">
+     <div class="faded-footer toolbar" style="margin-top:20%">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 faded">
