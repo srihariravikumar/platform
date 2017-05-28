@@ -36,7 +36,7 @@
                 @foreach($socialDrivers as $driver => $name)
                     <a id="social-login-{{$driver}}" class="button block muted-light svg text-left" href="{{ baseUrl("/login/service/" . $driver) }}">
                         @icon($driver)
-                        {{ trans('auth.log_in_with', ['socialDriver' => $name]) }}
+                        
                     </a>
                 @endforeach
             @endif
