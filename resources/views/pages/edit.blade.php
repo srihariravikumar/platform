@@ -20,6 +20,7 @@
 
     </div>
     
+    @include('partials/highlight')
     @include('components.image-manager', ['imageType' => 'gallery', 'uploaded_to' => $page->id])
     @include('components.entity-selector-popup')
 
