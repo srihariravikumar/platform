@@ -10,7 +10,7 @@
 
     <div class="text-center">
         <div class="center-box" style="background-color:#fff;border:1px solid #e2e2e2;box-shadow:0 0 5px #888;border-radius:4px;padding-top:25px">
-            <center><img style="height:68px" class="logo-image" src="https://doctub-cdn.firebaseapp.com/images/logo.png" alt="Logo"></center>
+            <center><a href="{{ baseUrl('/') }}"></a><img style="height:68px" class="logo-image" src="https://doctub-cdn.firebaseapp.com/images/logo.png" alt="Logo"></a></a></center>
 
             <form action="{{ baseUrl("/login") }}" method="POST" id="login-form">
                 {!! csrf_field() !!}
