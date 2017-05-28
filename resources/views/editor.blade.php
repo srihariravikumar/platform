@@ -24,31 +24,12 @@
     <script src="https://doctub-cdn.firebaseapp.com//jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
     
-        <script src="/service-worker-registration.js"></script>
+        <script src="script.js"></script>
     <script>
-      function sendMessage(message) {
-        return new Promise(function(resolve, reject) {
-          if (navigator.serviceWorker.controller) {
-            var messageChannel = new MessageChannel();
-            messageChannel.port1.onmessage = function (event) {
-              if (event.data.error) {
-                reject(event.data.error);
-              } else {
-                resolve(event.data);
-              }
-            };
-            navigator.serviceWorker.controller.postMessage(message, [messageChannel.port2]);
-          } else {
-            reject("This page isn't currently controlled by a service worker. Please reload and try again.");
-          }
-        });
-      }
-      document.querySelector('#clear-cache').addEventListener('click', function() {
-        sendMessage({command: 'delete_all'}).then(function() {
-          console.log('All caches deleted.');
-        }).catch(function(error) {
-          console.error('Caches not deleted:', error);
-        });
+      // Let's register our serviceworker
+      navigator.serviceWorker.register('sw.js', {
+        // The scope cannot be parent to the script url
+        scope: './'
       });
     </script>
 
