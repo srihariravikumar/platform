@@ -30,9 +30,7 @@
 
                 <div class="from-group">
                     <button class="button block pos">{{ trans('auth.create_account') }}</button>
-                                            <div class="links text-center">
-                                <a href="{{ baseUrl('/register') }}" style="background:#f05330"><i class="zmdi zmdi-account-add"></i>Sign Up</a>
-                        </div>
+                    <center><a href="{{ baseUrl('/login') }}" style="font-size:20px"><i class="zmdi zmdi-sign-in"></i>Login</a></center>
                 </div>
             </form>
 
