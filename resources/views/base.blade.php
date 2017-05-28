@@ -88,19 +88,6 @@
             <i class="zmdi zmdi-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
         </div>
     </div>
-    <footer style="padding-top:20px">
-     <div class="faded-footer toolbar">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 faded">
-                    <div class="action-buttons text-left">
-                        <a data-action="expand-entity-list-details" class="text-primary text-button"><i class="zmdi zmdi-wrap-text"></i>{{ trans('common.toggle_details') }}</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </div>
-    </footer>
 @yield('bottom')
 <script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
 @yield('scripts')
