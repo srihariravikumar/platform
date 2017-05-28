@@ -1,4 +1,4 @@
-@extends('editor')
+@extends('pages/editor')
 
 @section('head')
     <script src="https://doctub-cdn.firebaseapp.com/js/tinymce/tinymce.min.js"></script>
