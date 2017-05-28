@@ -26,7 +26,7 @@
 
 
                 <div class="from-group">
-                    <button class="button block pos" tabindex="3"><i class="zmdi zmdi-sign-in"></i> {{ title_case(trans('auth.log_in')) }}</button>
+                    <button style="background-color:transparent;color:#0288d1;border:1px solid" class="button block pos" tabindex="3"><i class="zmdi zmdi-sign-in"></i> {{ title_case(trans('auth.log_in')) }}</button>
                     <center><a href="{{ baseUrl('/register') }}" style="font-size:20px"><i class="zmdi zmdi-account-add"></i>Sign Up</a></center>
                 </div>
             </form>
