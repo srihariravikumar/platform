@@ -23,15 +23,6 @@
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
-    
-        <script src="script.js"></script>
-    <script>
-      // Let's register our serviceworker
-      navigator.serviceWorker.register('sw.js', {
-        // The scope cannot be parent to the script url
-        scope: './'
-      });
-    </script>
 
     @yield('head')
 
