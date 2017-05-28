@@ -14,8 +14,12 @@ self.addEventListener('install', function(event) {
       // And add resources to it
       return cache.addAll([
         '/',
-        'style.css',
-        'logging.js'
+        'https://doctub-cdn.firebaseapp.com/css/styles-bundle.css',
+        'https://doctub-cdn.firebaseapp.com/css/print-styles.css',
+        'https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css',
+        'https://doctub-cdn.firebaseapp.com/js/jquery.min.js',
+        'https://doctub-cdn.firebaseapp.com/js/jquery-ui.min.js',
+        'https://doctub-cdn.firebaseapp.com/images/logo.png',
       ]);
     })
   );
