@@ -1,7 +1,9 @@
-<link rel="stylesheet" href="https://codemirror.net/lib/codemirror.css">
-<script src="https://codemirror.net/lib/codemirror.css"></script>
+<script src="https://doctub-cdn.firebaseapp.com/js/highlight.min.js"></script>
 <script>
-  var editor = CodeMirror.fromTextArea(myTextarea, {
-    lineNumbers: true
-  });
+    $(function() {
+        var aCodes = document.getElementsByTagName('pre');
+        for (var i=0; i < aCodes.length; i++) {
+            hljs.highlightBlock(aCodes[i]);
+        }
+    });
 </script>
