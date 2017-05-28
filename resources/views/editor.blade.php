@@ -11,7 +11,6 @@
     
     <link rel="dns-prefetch" href="https://secure.gravatar.com/">
     <link rel="dns-prefetch" href="https://doctub-cdn.firebaseapp.com/">
-    <link rel="dns-prefetch" href="https://chart.googleapis.com/">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
     
     <link rel="manifest" href="/manifest.json">
@@ -21,7 +20,7 @@
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
     
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
-    <script src="https://doctub-cdn.firebaseapp.com//jquery-ui.min.js"></script>
+    
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
