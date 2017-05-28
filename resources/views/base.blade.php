@@ -88,7 +88,7 @@
             <i class="zmdi zmdi-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
         </div>
     </div>
-    <footer style="margin-top:20%">
+    <footer>
      <div class="faded-footer toolbar">
         <div class="container">
             <div class="row">
