@@ -20,7 +20,7 @@
 
                 <div class="form-group">
                     <label for="email">{{ trans('auth.email') }}</label>
-                    @include('form/text', ['name' => 'email'] 'placeholder' => 'E-Mail'])
+                    @include('form/text', ['name' => 'email'] 'placeholder' => "E-Mail"])
                 </div>
 
                 <div class="form-group">
