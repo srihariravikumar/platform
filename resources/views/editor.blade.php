@@ -23,6 +23,14 @@
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
     <script src="https://doctub-cdn.firebaseapp.com//jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
+    
+        <script>
+               if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/serviceworker.js', {
+    scope: '/'
+  });
+}
+    </script>
 
     @yield('head')
 
