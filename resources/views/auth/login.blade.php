@@ -27,7 +27,9 @@
 
                 <div class="from-group">
                     <button class="button block pos" tabindex="3"><i class="zmdi zmdi-sign-in"></i> {{ title_case(trans('auth.log_in')) }}</button>
-                    <button class="button block pos" tabindex="3"><i class="zmdi zmdi-sign-in"></i> {{ title_case(trans('auth.create_account')) }}</button
+                        <div class="links text-center">
+                                <a href="{{ baseUrl('/register') }}" style="background:#f05330"><i class="zmdi zmdi-account-add"></i>Sign Up</a>
+                        </div>
                 </div>
             </form>
 
