@@ -1,4 +1,4 @@
-@extends('public')
+@extends('background')
 
 @section('header-buttons')
     <a href="{{ baseUrl("/login") }}"><i class="zmdi zmdi-sign-in"></i>{{ trans('auth.log_in') }}</a>
@@ -7,7 +7,7 @@
 @section('content')
 
     <div class="text-center">
-        <div class="center-box">
+        <div class="center-box" style="background-color:#fff;border:1px solid #e2e2e2;box-shadow:0 0 5px #888;border-radius:4px;padding-top:25px">
             <h1>{{ title_case(trans('auth.sign_up')) }}</h1>
 
             <form action="{{ baseUrl("/register") }}" method="POST">
