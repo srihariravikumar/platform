@@ -10,7 +10,7 @@
 
     <div class="text-center">
         <div class="center-box" style="background-color:#fff;border:1px solid #e2e2e2;box-shadow:0 0 5px #888;border-radius:4px;padding-top:25px">
-            <center><img class="logo-image" src="https://doctub-cdn.firebaseapp.com/images/logo.png" alt="Logo"></center>
+            <center><img style="height:68px" class="logo-image" src="https://doctub-cdn.firebaseapp.com/images/logo.png" alt="Logo"></center>
 
             <form action="{{ baseUrl("/login") }}" method="POST" id="login-form">
                 {!! csrf_field() !!}
@@ -27,6 +27,7 @@
 
                 <div class="from-group">
                     <button class="button block pos" tabindex="3"><i class="zmdi zmdi-sign-in"></i> {{ title_case(trans('auth.log_in')) }}</button>
+                    <button class="button block pos" tabindex="3"><i class="zmdi zmdi-sign-in"></i> {{ title_case(trans('auth.create_account')) }}</button
                 </div>
             </form>
 
