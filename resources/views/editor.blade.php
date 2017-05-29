@@ -36,7 +36,15 @@
     <section id="content" class="block">
         @yield('content')
     </section>
-
+    <script src="https://doctub-cdn.firebaseapp.com/js/highlight.min.js"></script>
+    <script>
+        $(function() {
+            var aCodes = document.getElementsByTagName('pre');
+            for (var i=0; i < aCodes.length; i++) {
+                hljs.highlightBlock(aCodes[i]);
+            }
+        });
+    </script>
 @yield('bottom')
 <script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
 @yield('scripts')
