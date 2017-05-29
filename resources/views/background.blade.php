@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background-image: url(https://doctub-cdn.firebaseapp.com/images/back.png);position:fixed">
+<html style="background-image: url(https://doctub-cdn.firebaseapp.com/images/back.png)">
 <head>
     <title>{{ setting('app-name') }}</title>
 
