@@ -1,13 +1,8 @@
 "use strict";
 // Configure ZeroClipboard
 const Clipboard = require("clipboard");
-const Code = require('../code');
 
 let setupPageShow = window.setupPageShow = function (pageId) {
-
-    Code.highlight();
-
-    if (!pageId) return;
 
     // Set up pointer
     let $pointer = $('#pointer').detach();
