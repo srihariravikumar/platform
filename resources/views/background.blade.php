@@ -11,13 +11,13 @@
 
     <link rel="dns-prefetch" href="https://doctub-cdn.firebaseapp.com/">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
-    
+
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="https://doctub-cdn.firebaseapp.com/images/logo.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/styles-bundle.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.firebaseapp.com/css/print-styles.css">
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
-    
+
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
     @include('partials/custom-styles')
 

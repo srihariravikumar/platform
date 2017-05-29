@@ -2,15 +2,6 @@
 
 @section('content')
 
-  <meta property="og:url"           content="{{ $book->getUrl('/') }}">
-  <meta property="og:type"          content="website">
-  <meta property="og:title"         content="{{$book->name}}">
-  <meta property="og:description"   content="{{$book->description}}">
-  <meta property="og:image"         content="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
-  <meta property="og:image:type"    content="image/png">
-  <meta property="og:image:width" content="150">
-  <meta property="og:image:height" content="150">
-
     <div class="faded-small toolbar">
         <div class="container">
             <div class="row">
@@ -122,7 +113,7 @@
                         <button v-if="searching" v-cloak class="text-neg" v-on:click="clearSearch()" type="button"><i class="zmdi zmdi-close"></i></button>
                     </form>
                 </div>
-                
+
                 <div class="activity">
                   <h3>QR Code &nbsp;<a href="https://chart.googleapis.com/chart?chs=547x547&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8"><i style="color:#0288d1" class="zmdi zmdi-download"></i></a></h3>
                     <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">

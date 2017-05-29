@@ -10,7 +10,7 @@
         <div class="row action-header">
             <div class="col-sm-8">
                 <h1>{{ trans('settings.users') }}</h1>
-                
+
             </div>
             <div class="col-sm-4">
                 <p></p>
@@ -46,7 +46,7 @@
             </tr>
             @foreach($users as $user)
                 <tr>
-                    <td style="line-height: 0;"><img class="avatar med" src="https://secure.gravatar.com/avatar/{{ md5(strtolower(trim($user->email))) }}?d=identicon&r=x&s=120"></td>
+                    <td style="line-height: 0;"><img class="avatar med" src="https://secure.gravatar.com/avatar/{{ md5(strtolower(trim($user->email))) }}?d=identicon&r=x&s=80"></td>
                     <td>
                         @if(userCan('users-manage') || $currentUser->id == $user->id)
                             <a href="{{ baseUrl("/user/{$user->id}") }}">

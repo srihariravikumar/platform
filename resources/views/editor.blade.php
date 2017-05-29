@@ -8,19 +8,19 @@
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta name="theme-color" content="#F48024">
     <meta charset="utf-8">
-    
+
     <link rel="dns-prefetch" href="https://secure.gravatar.com/">
     <link rel="dns-prefetch" href="https://doctub-cdn.firebaseapp.com/">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
-    
+
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="https://doctub-cdn.firebaseapp.com/images/logo.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/styles-bundle.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.firebaseapp.com/css/print-styles.css">
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
-    
+
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
-    
+
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
@@ -32,7 +32,7 @@
 <body class="@yield('body-class')" ng-app="bookStack">
 
     @include('partials/notifications')
-    
+
     <section id="content" class="block">
         @yield('content')
     </section>

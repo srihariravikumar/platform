@@ -3,8 +3,9 @@
 /**
  * DocTub - Online Documentation Platform.
  * @author - Yoginth <yoginth@zoho.com>
+ * Copyright (c) 2017-present, DocTub, Inc. All rights reserved.
  */
- 
+
 use BookStack\Exceptions\FileUploadException;
 use BookStack\Attachment;
 use BookStack\Repos\EntityRepo;
@@ -80,7 +81,7 @@ class AttachmentController extends Controller
 
         $this->checkOwnablePermission('page-update', $page);
         $this->checkOwnablePermission('attachment-create', $attachment);
-        
+
         if (intval($pageId) !== intval($attachment->uploaded_to)) {
             return $this->jsonError(trans('errors.attachment_page_mismatch'));
         }

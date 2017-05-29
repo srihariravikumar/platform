@@ -3,8 +3,9 @@
 /**
  * DocTub - Online Documentation Platform.
  * @author - Yoginth <yoginth@zoho.com>
+ * Copyright (c) 2017-present, DocTub, Inc. All rights reserved.
  */
- 
+
 use BookStack\Repos\EntityRepo;
 use BookStack\Services\SearchService;
 use BookStack\Services\ViewService;
@@ -111,5 +112,3 @@ class SearchController extends Controller
     }
 
 }
-
-

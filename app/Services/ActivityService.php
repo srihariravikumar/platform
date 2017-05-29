@@ -3,8 +3,9 @@
 /**
  * DocTub - Online Documentation Platform.
  * @author - Yoginth <yoginth@zoho.com>
+ * Copyright (c) 2017-present, DocTub, Inc. All rights reserved.
  */
- 
+
 use BookStack\Activity;
 use BookStack\Entity;
 use Session;
@@ -116,7 +117,7 @@ class ActivityService
             $query = $this->activity->where('entity_type', '=', get_class($entity))
                 ->where('entity_id', '=', $entity->id);
         }
-        
+
         $activity = $this->permissionService
             ->filterRestrictedEntityRelations($query, 'activities', 'entity_id', 'entity_type')
             ->orderBy('created_at', 'desc')->with(['entity', 'user.avatar'])->skip($count * $page)->take($count)->get();

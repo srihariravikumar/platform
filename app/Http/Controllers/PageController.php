@@ -3,8 +3,9 @@
 /**
  * DocTub - Online Documentation Platform.
  * @author - Yoginth <yoginth@zoho.com>
+ * Copyright (c) 2017-present, DocTub, Inc. All rights reserved.
  */
- 
+
 use Activity;
 use BookStack\Exceptions\NotFoundException;
 use BookStack\Repos\EntityRepo;
@@ -166,7 +167,7 @@ class PageController extends Controller
         $pageContent = $this->entityRepo->renderPage($page);
         $sidebarTree = $this->entityRepo->getBookChildren($page->book);
         $pageNav = $this->entityRepo->getPageNav($pageContent);
-        
+
         Views::add($page);
         $this->setPageTitle($page->getShortName());
         return view('pages/show', [
@@ -381,7 +382,7 @@ class PageController extends Controller
 
         $page->fill($revision->toArray());
         $this->setPageTitle(trans('entities.pages_revision_named', ['pageName' => $page->getShortName()]));
-        
+
         return view('pages/revision', [
             'page' => $page,
             'book' => $page->book,
