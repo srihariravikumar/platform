@@ -1,4 +1,407 @@
 User-agent: *
 
-Allow: /
-Disallow:
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: CCBot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: coccoc
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Daumoa
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: dotbot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: duckduckbot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: EtaoSpider
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Googlebot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: HTTrack
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: ia_archiver
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: IntuitGSACrawler
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Mail.RU_Bot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: msnbot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Bingbot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: naverbot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: red-app-gsa-p-one
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: rogerbot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: SandDollar
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Slurp
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Swiftbot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Telefonica
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: teoma
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Twitterbot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Yandex
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: baiduspider
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Yeti
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+User-agent: Applebot
+
+Allow: /books/*/
+Allow: /user/*
+Allow: /books
+Disallow: /search?term=
+Disallow: /books/create
+Disallow: /settings/*/
+Disallow: /settings/users/*
+Disallow: /logout
+Disallow: /*/export/*
+Disallow: /*/*/edit
+Disallow: /*/*/revisions
+Disallow: /*/*/move
+
+Sitemap: https://doctub-cdn.firebaseapp.com/sitemaps/books-sitemap-1.xml
+Sitemap: https://doctub-cdn.firebaseapp.com/sitemaps/users-sitemap-1.xml
