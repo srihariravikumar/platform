@@ -1,0 +1,204 @@
+/**
+ * Includes the main navigation header and the faded toolbar.
+ */
+
+header {
+  display: block;
+  z-index: 2;
+  top: 0;
+  background-color: $primary-dark;
+  color: #fff;
+  .padded {
+    padding: $-m;
+  }
+  border-bottom: 1px solid #DDD;
+  //margin-bottom: $-l;
+  .links {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: $-xl;
+    @include smaller-than($screen-md) {
+      margin-right: $-m;
+    }
+  }
+  .links a {
+    display: inline-block;
+    padding: $-l;
+    color: #FFF;
+    &:last-child {
+      padding-right: 0;
+    }
+    @include smaller-than($screen-md) {
+      padding: $-l $-s;
+    }
+  }
+  .avatar, .user-name {
+    display: inline-block;
+  }
+  .avatar {
+    //margin-top: (45px/2);
+    width: 30px;
+    height: 30px;
+  }
+  .user-name {
+    vertical-align: top;
+    padding-top: $-l;
+    display: inline-block;
+    cursor: pointer;
+    > * {
+      vertical-align: top;
+    }
+    > span, > i {
+      padding-left: $-xs;
+      display: inline-block;
+    }
+    > span {
+      padding-top: $-xxs;
+    }
+    > i {
+      padding-top: 4px;
+      font-size: 18px;
+    }
+    @include smaller-than($screen-md) {
+      padding-left: $-xs;
+      .name {
+        display: none;
+      }
+    }
+  }
+  @include smaller-than($screen-md) {
+    text-align: center;
+    .float.right {
+      float: none;
+    }
+  }
+  @include smaller-than($screen-sm) {
+    .links a {
+      padding: $-s;
+    }
+    form.search-box {
+      margin-top: 0;
+    }
+    .user-name {
+      padding-top: $-s;
+    }
+  }
+  .dropdown-container {
+    font-size: 0.9em;
+  }
+}
+
+form.search-box {
+  margin-top: $-l *0.9;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  input {
+    background-color: transparent;
+    border-radius: 24px;
+    border: 2px solid #EEE;
+    color: #EEE;
+    padding-left: $-m;
+    padding-right: $-l;
+    outline: 0;
+  }
+  button {
+    vertical-align: top;
+    margin-left: -$-l;
+    color: #FFF;
+    top: 6px;
+    right: 4px;
+    display: inline-block;
+    position: absolute;
+    &:hover {
+      color: #FFF;
+    }
+  }
+}
+
+.logo {
+  display: inline-block;
+  &:hover {
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+.logo-text {
+  display: inline-block;
+  font-size: 1.8em;
+  color: #fff;
+  font-weight: 400;
+  padding: $-l $-l $-l 0;
+  vertical-align: top;
+  line-height: 1;
+}
+.logo-image {
+  margin: $-m $-s $-m 0;
+  vertical-align: top;
+  height: 43px;
+}
+
+.breadcrumbs span.sep {
+  color: #aaa;
+  padding: 0 $-xs;
+}
+
+.faded {
+  a, button, span, span > div {
+    color: #666;
+  }
+  .text-button {
+    opacity: 0.5;
+    transition: all ease-in-out 120ms;
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+    }
+  }
+
+}
+
+.faded span.faded-text {
+  display: inline-block;
+  padding: $-s;
+}
+
+.faded-small {
+  color: #000;
+  font-size: 0.9em;
+  background-color: $primary-faded;
+}
+
+.breadcrumbs .text-button, .action-buttons .text-button {
+  display: inline-block;
+  padding: $-s;
+  &:last-child {
+    padding-right: 0;
+  }
+}
+.action-buttons {
+  text-align: right;
+  &.text-left {
+    text-align: left;
+    .text-button {
+      padding-right: $-m;
+      padding-left: 0;
+    }
+  }
+  &.text-center {
+    text-align: center;
+  }
+}
+
+.nav-tabs {
+  text-align: center;
+  a, .tab-item {
+    padding: $-m;
+    display: inline-block;
+    color: #666;
+    cursor: pointer;
+    &.selected {
+      border-bottom: 2px solid $primary;
+    }
+  }
+}

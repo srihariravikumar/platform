@@ -1,0 +1,32 @@
+dist: trusty
+sudo: false
+language: php
+php:
+  - 5.6
+  
+matrix:
+  allow_failures:
+  - php: 5.6
+
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+    
+before_script:
+  - mysql -u root -e 'create database `doctub-test`;'
+  - mysql -u root -e "CREATE USER 'doctub-test'@'localhost' IDENTIFIED BY 'doctub-test';"
+  - mysql -u root -e "GRANT ALL ON \`doctub-test\`.* TO 'doctub-test'@'localhost';"
+  - mysql -u root -e "FLUSH PRIVILEGES;"
+  - phpenv config-rm xdebug.ini
+  - composer dump-autoload --no-interaction
+  - composer install --prefer-dist --no-interaction
+  - php artisan clear-compiled -n
+  - php artisan optimize -n
+  - php artisan migrate --force -n --database=mysql_testing
+  - php artisan db:seed --force -n --class=DummyContentSeeder --database=mysql_testing
+
+after_failure:
+  - cat storage/logs/laravel.log
+
+script:
+  - phpunit
