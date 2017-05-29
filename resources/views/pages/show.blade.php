@@ -28,7 +28,7 @@
                                 <ul>
                                     @if(userCan('settings-manage', $page))
                                         <li><a href="{{ $page->getUrl('/move') }}" class="text-primary" ><i class="zmdi zmdi-folder"></i>{{ trans('common.move') }}</a></li>
-                                    @endif                                  
+                                    @endif
                                     @if(userCan('page-update', $page))
                                         <li><a href="{{ $page->getUrl('/revisions') }}" class="text-primary"><i class="zmdi zmdi-replay"></i>{{ trans('entities.revisions') }}</a></li>
                                     @endif
@@ -113,7 +113,6 @@
         </div>
     </div>
     
-    @include('partials/highlight')
 @stop
 
 @section('scripts')
