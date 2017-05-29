@@ -5,7 +5,7 @@
  * @author - Yoginth <yoginth@zoho.com>
  * Copyright (c) 2017-present, DocTub, Inc. All rights reserved.
  */
- 
+
 Route::get('/translations', 'HomeController@getTranslations');
 
 // Authenticated routes...
@@ -19,6 +19,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::group(['prefix' => 'books'], function () {
 
         // Books
+        Route::get('/sitemap', 'SitemapController@sitemap');
         Route::get('/', 'BookController@index');
         Route::get('/create', 'BookController@create');
         Route::post('/', 'BookController@store');
