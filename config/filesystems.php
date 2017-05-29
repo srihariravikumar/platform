@@ -5,58 +5,14 @@
  * @author - Yoginth <yoginth@zoho.com>
  * Copyright (c) 2017-present, DocTub, Inc. All rights reserved.
  */
- 
-return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Default Filesystem Disk
-    |--------------------------------------------------------------------------
-    |
-    | Here you may specify the default filesystem disk that should be used
-    | by the framework. A "local" driver, as well as a variety of cloud
-    | based drivers are available for your choosing. Just store away!
-    |
-    | Supported: "local", "ftp", "s3", "rackspace"
-    |
-    */
+return [
 
     'default' => env('STORAGE_TYPE', 'local'),
 
-    /*
-    |--------------------------------------------------------------------------
-    | Storage URL
-    |--------------------------------------------------------------------------
-    |
-    | This is the url to where the storage is located for when using an external
-    | file storage service, such as s3, to store publicly accessible assets.
-    |
-    */
     'url' => env('STORAGE_URL', false),
 
-    /*
-    |--------------------------------------------------------------------------
-    | Default Cloud Filesystem Disk
-    |--------------------------------------------------------------------------
-    |
-    | Many applications store files both locally and in the cloud. For this
-    | reason, you may specify a default "cloud" driver here. This driver
-    | will be bound as the Cloud disk implementation in the container.
-    |
-    */
-
     'cloud' => 's3',
-
-    /*
-    |--------------------------------------------------------------------------
-    | Filesystem Disks
-    |--------------------------------------------------------------------------
-    |
-    | Here you may configure as many filesystem "disks" as you wish, and you
-    | may even configure multiple disks of the same driver. Defaults have
-    | been setup for each driver as an example of the required options.
-    |
-    */
 
     'disks' => [
 

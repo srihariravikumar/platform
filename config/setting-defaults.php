@@ -6,9 +6,6 @@
  * Copyright (c) 2017-present, DocTub, Inc. All rights reserved.
  */
  
-/**
- * The defaults for the system settings that are saved in the database.
- */
 return [
 
     'app-name'        => 'DocTub',
