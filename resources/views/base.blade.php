@@ -8,18 +8,18 @@
     <meta name="base-url" content="{{ baseUrl('/') }}">
     <meta name="theme-color" content="#F48024">
     <meta charset="utf-8">
-    
+
     <link rel="dns-prefetch" href="https://secure.gravatar.com/">
     <link rel="dns-prefetch" href="https://doctub-cdn.firebaseapp.com/">
     <link rel="dns-prefetch" href="https://chart.googleapis.com/">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
-    
+
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="https://doctub-cdn.firebaseapp.com/images/logo.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/styles-bundle.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.firebaseapp.com/css/print-styles.css">
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
-    
+
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
@@ -50,12 +50,13 @@
                             <span class="logo-text"><b>Doc</b><i>Tub</i></span>
                         @endif
                     </a>
-                </div>
-                <div class="col-lg-4 col-sm-3 text-center">
-                    <form action="{{ baseUrl('/search') }}" method="GET" class="search-box">
-                        <input id="header-search-box-input" placeholder="Search in DocTub" type="text" name="term" tabindex="2" value="{{ isset($searchTerm) ? $searchTerm : '' }}">
-                        <button id="header-search-box-button" type="submit" class="text-button"><i class="zmdi zmdi-search"></i></button>
-                    </form>
+                    
+                    <div class="col-lg-4 col-sm-3 text-center">
+                        <form action="{{ baseUrl('/search') }}" method="GET" class="search-box">
+                            <input id="header-search-box-input" placeholder="Search in DocTub" type="text" name="term" tabindex="2" value="{{ isset($searchTerm) ? $searchTerm : '' }}">
+                            <button id="header-search-box-button" type="submit" class="text-button"><i class="zmdi zmdi-search"></i></button>
+                        </form>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-5">
                     <div class="float right">
@@ -88,7 +89,7 @@
             <i class="zmdi zmdi-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
         </div>
     </div>
-    
+
 @yield('bottom')
 <script src="https://doctub-cdn.firebaseapp.com/js/common.js"></script>
 @yield('scripts')

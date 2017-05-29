@@ -1,4 +1,4 @@
-Paths for JS Delivr
+Paths for CDN Files
 
 /platform/resources/views/base.blade.php
 /platform/resources/views/editor.blade.php
