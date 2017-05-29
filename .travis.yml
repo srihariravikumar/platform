@@ -3,7 +3,7 @@ sudo: false
 language: php
 php:
   - 5.6
-  
+
 matrix:
   allow_failures:
   - php: 5.6
@@ -11,7 +11,7 @@ matrix:
 cache:
   directories:
     - $HOME/.composer/cache/files
-    
+
 before_script:
   - mysql -u root -e 'create database `doctub-test`;'
   - mysql -u root -e "CREATE USER 'doctub-test'@'localhost' IDENTIFIED BY 'doctub-test';"
