@@ -4,7 +4,7 @@
  * DocTub - Online Documentation Platform.
  * @author - Yoginth <yoginth@zoho.com>
  */
- 
+
 /*
 |--------------------------------------------------------------------------
 | Model Factories
