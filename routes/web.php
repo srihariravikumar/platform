@@ -19,7 +19,6 @@ Route::group(['middleware' => 'auth'], function () {
     Route::group(['prefix' => 'books'], function () {
 
         // Books
-        Route::get('/sitemap', 'SitemapController@sitemap');
         Route::get('/', 'BookController@index');
         Route::get('/create', 'BookController@create');
         Route::post('/', 'BookController@store');
@@ -188,3 +187,4 @@ Route::post('/password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail
 // Password reset routes...
 Route::get('/password/reset/{token}', 'Auth\ResetPasswordController@showResetForm');
 Route::post('/password/reset', 'Auth\ResetPasswordController@reset');
+Route::get('/sitemap', 'SitemapController@sitemap');
