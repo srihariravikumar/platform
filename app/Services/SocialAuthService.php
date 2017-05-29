@@ -3,8 +3,9 @@
 /**
  * DocTub - Online Documentation Platform.
  * @author - Yoginth <yoginth@zoho.com>
+ * Copyright (c) 2017-present, DocTub, Inc. All rights reserved.
  */
- 
+
 use Laravel\Socialite\Contracts\Factory as Socialite;
 use BookStack\Exceptions\SocialDriverNotConfigured;
 use BookStack\Exceptions\SocialSignInException;
@@ -138,7 +139,7 @@ class SocialAuthService
         if (setting('registration-enabled')) {
             $message .= trans('errors.social_account_register_instructions', ['socialAccount' => title_case($socialDriver)]);
         }
-        
+
         throw new SocialSignInException($message . '.', '/login');
     }
 

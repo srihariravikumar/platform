@@ -3,8 +3,9 @@
 /**
  * DocTub - Online Documentation Platform.
  * @author - Yoginth <yoginth@zoho.com>
+ * Copyright (c) 2017-present, DocTub, Inc. All rights reserved.
  */
- 
+
 use BookStack\Book;
 use BookStack\Chapter;
 use BookStack\Entity;
@@ -1082,15 +1083,3 @@ class EntityRepo
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
