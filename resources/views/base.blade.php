@@ -15,7 +15,7 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="https://doctub-cdn.firebaseapp.com/images/logo.png" type="image/x-icon"/>
+    <link rel="icon" href="https://doctub-cdn.firebaseapp.com/images/favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/styles-bundle.css">
     <link rel="stylesheet" media="print" href="https://doctub-cdn.firebaseapp.com/css/print-styles.css">
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
@@ -44,7 +44,7 @@
                 <div class="col-lg-4 col-sm-4" ng-non-bindable>
                     <a href="{{ baseUrl('/') }}" class="logo">
                         @if(setting('app-logo', '') !== 'none')
-                            <img class="logo-image" src="https://doctub-cdn.firebaseapp.com/images/logo.png" alt="Logo">
+                            <img class="logo-image" src="https://doctub-cdn.firebaseapp.com/images/logo-250.png" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
                             <span class="logo-text"><b>Doc</b><i>Tub</i></span>
