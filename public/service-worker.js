@@ -4,12 +4,7 @@ var cacheName = 'v1';
 // Default files to always cache
 var cacheFiles = [
 	'./',
-  'https://doctub-cdn.firebaseapp.com/images/favicon.png',
-  'https://doctub-cdn.firebaseapp.com/css/styles-bundle.css',
-  'https://doctub-cdn.firebaseapp.com/css/print-styles.css',
-  'https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css',
-  'https://doctub-cdn.firebaseapp.com/js/jquery.min.js',
-  'https://doctub-cdn.firebaseapp.com/js/jquery-ui.min.js'
+  './logo-250.png'
 ]
 
 
