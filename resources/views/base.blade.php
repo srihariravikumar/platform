@@ -20,7 +20,6 @@
     <link rel="stylesheet" media="print" href="https://doctub-cdn.firebaseapp.com/css/print-styles.css">
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
 
-    <script src="js/app.js"></script>
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
@@ -45,7 +44,7 @@
                 <div class="col-lg-4 col-sm-4" ng-non-bindable>
                     <a href="{{ baseUrl('/') }}" class="logo">
                         @if(setting('app-logo', '') !== 'none')
-                            <img class="logo-image" src="/logo-250.png" alt="Logo">
+                            <img class="logo-image" src="https://doctub-cdn.firebaseapp.com/images/logo-250.png" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
                             <span class="logo-text"><b>Doc</b><i>Tub</i></span>

@@ -20,7 +20,6 @@
     <link rel="stylesheet" media="print" href="https://doctub-cdn.firebaseapp.com/css/print-styles.css">
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
 
-    <script src="js/app.js"></script>
     <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
     @include('partials/custom-styles')
 
