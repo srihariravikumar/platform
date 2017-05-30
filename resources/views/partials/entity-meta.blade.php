@@ -19,4 +19,4 @@
     @endif
 </p>
 
-<iframe frameborder="0" src="https://www.google.com/trends/fetchComponent?q={{$book->name}}&amp;cid=TIMESERIES_GRAPH_0&amp;export=5&amp;w=1140&amp;h=380" style="width:100%;max-width: 940px;height: 380px;border: 1px solid #EAEAEA; display:block; margin: 0 auto;margin-bottom: 15px;"></iframe>
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1015_RC10/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"Atom","geo":"","time":"2004-01-01 2017-05-30"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=Atom","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
