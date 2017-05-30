@@ -117,6 +117,7 @@
                 <div class="activity">
                   <h3>QR Code &nbsp;<a href="https://chart.googleapis.com/chart?chs=547x547&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8"><i style="color:#0288d1" class="zmdi zmdi-download"></i></a></h3>
                     <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
+                    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1015_RC10/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"{{$book->name}}","geo":"","time":"2004-01-01 2017-05-30"}],"category":0,"property":""}, {"exploreQuery":"date=all&q={{$book->name}}","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
                   <h3>Share on Social</h3>
                     <iframe src="https://www.facebook.com/plugins/share_button.php?href={{ $book->getUrl('/') }}&layout=button_count&size=large&mobile_iframe=true&width=108&height=28&appId" width="108" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                     <h3>{{ trans('entities.recent_activity') }}</h3>
