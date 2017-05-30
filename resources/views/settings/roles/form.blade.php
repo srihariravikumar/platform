@@ -123,34 +123,4 @@
         <a href="{{ baseUrl("/settings/roles") }}" class="button muted">{{ trans('common.cancel') }}</a>
         <button type="submit" class="button pos">{{ trans('settings.role_save') }}</button>
     </div>
-    <div class="col-md-3">
-        <h3>{{ trans('settings.role_users') }}</h3>
-
-        @if(isset($role) && count($role->users) > 0)
-        <table class="list-table">
-            @foreach($role->users as $user)
-                <tr>
-                    <td style="line-height: 0;"><img class="avatar small" src="https://secure.gravatar.com/avatar/{{ md5(strtolower(trim($user->email))) }}?d=identicon&r=x&s=80" alt="{{ $user->name }}"></td>
-                    <td>
-                        @if(userCan('users-manage') || $currentUser->id == $user->id)
-                            <a href="{{ baseUrl("/settings/users/{$user->id}") }}">
-                                @endif
-                                {{ $user->name }}
-                                @if(userCan('users-manage') || $currentUser->id == $user->id)
-                            </a>
-                        @endif
-                    </td>
-                </tr>
-            @endforeach
-        </table>
-        @else
-            <p class="text-muted">
-                {{ trans('settings.role_users_none') }}
-            </p>
-        @endif
-
-    </div>
-
-
-
 </div>
