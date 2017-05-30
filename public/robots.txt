@@ -1,3 +1,7 @@
+# Notice: Crawling Facebook is prohibited unless you have express written
+# If you would like to crawl DocTub contact us at support@doctub.com.
+# permission. See: http://doctub.github.io/crawling
+
 User-agent: *
 
 Allow: /books/*/
