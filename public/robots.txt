@@ -7,6 +7,8 @@ User-agent: *
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -22,6 +24,8 @@ User-agent: CCBot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -37,6 +41,8 @@ User-agent: coccoc
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -52,6 +58,8 @@ User-agent: Daumoa
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -67,6 +75,8 @@ User-agent: dotbot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -82,6 +92,8 @@ User-agent: duckduckbot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -97,6 +109,8 @@ User-agent: EtaoSpider
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -112,6 +126,8 @@ User-agent: Googlebot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -127,6 +143,8 @@ User-agent: HTTrack
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -142,6 +160,8 @@ User-agent: ia_archiver
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -157,6 +177,8 @@ User-agent: IntuitGSACrawler
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -172,6 +194,8 @@ User-agent: Mail.RU_Bot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -187,6 +211,8 @@ User-agent: msnbot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -202,6 +228,8 @@ User-agent: Bingbot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -217,6 +245,8 @@ User-agent: naverbot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -232,6 +262,8 @@ User-agent: red-app-gsa-p-one
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -247,6 +279,8 @@ User-agent: rogerbot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -262,6 +296,8 @@ User-agent: SandDollar
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -277,6 +313,8 @@ User-agent: Slurp
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -292,6 +330,8 @@ User-agent: Swiftbot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -307,6 +347,8 @@ User-agent: Telefonica
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -322,6 +364,8 @@ User-agent: teoma
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -337,6 +381,8 @@ User-agent: Twitterbot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -352,6 +398,8 @@ User-agent: Yandex
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -367,6 +415,8 @@ User-agent: baiduspider
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -382,6 +432,8 @@ User-agent: Yeti
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
@@ -397,6 +449,8 @@ User-agent: Applebot
 Allow: /books/*/
 Allow: /user/*
 Allow: /books
+Allow: /login
+Allow: /register
 Disallow: /search?term=
 Disallow: /books/create
 Disallow: /settings/*/
