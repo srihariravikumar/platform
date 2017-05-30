@@ -15,11 +15,11 @@
 
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="https://doctub-cdn.firebaseapp.com/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/styles-bundle.css">
-    <link rel="stylesheet" media="print" href="https://doctub-cdn.firebaseapp.com/css/print-styles.css">
+    <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/core-bundle.css">
+    <link rel="stylesheet" media="print" href="https://doctub-cdn.firebaseapp.com/css/core-bundle-1.css">
     <link rel="stylesheet" href="https://doctub-cdn.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
 
-    <script src="https://doctub-cdn.firebaseapp.com/js/jquery.min.js"></script>
+    <script src="https://doctub-cdn.firebaseapp.com/js/doctub-query.min.js"></script>
 
     <script src="{{ baseUrl('/translations') }}"></script>
 
