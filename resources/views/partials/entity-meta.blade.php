@@ -17,6 +17,5 @@
     @else
         <span title="{{ $entity->updated_at->toDayDateTimeString() }}">{{ trans('entities.meta_updated', ['timeLength' => $entity->updated_at->diffForHumans()]) }}</span>
     @endif
+    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1015_RC10/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("GEO_MAP", {"comparisonItem":[{"keyword":"{{$book->name}}","geo":"","time":"2004-01-01 2017-05-30"}],"category":0,"property":""}, {"exploreQuery":"date=all&q={{$book->name}}","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
 </p>
-
-<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1015_RC10/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("GEO_MAP", {"comparisonItem":[{"keyword":"{{$book->name}}","geo":"","time":"2004-01-01 2017-05-30"}],"category":0,"property":""}, {"exploreQuery":"date=all&q={{$book->name}}","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
