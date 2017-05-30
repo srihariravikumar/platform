@@ -19,4 +19,4 @@
     @endif
 </p>
 
-<iframe id="trends-widget-1" src="https://trends.google.com:443/trends/embed/explore/TIMESERIES?req={"comparisonItem":[{"keyword":"{{$book->name}}","geo":"","time":"2004-01-01 2017-05-30"}],"category":0,"property":""}&tz=-330&eq=date=all&q={{$book->name}}" width="100%;height:330px;" frameborder="0" scrolling="0"></iframe>
+<iframe id="trends-widget-1" src="https://trends.google.com:443/trends/embed/explore/TIMESERIES?req={"comparisonItem":[{"keyword":"{{$book->name}}","geo":"","time":"2004-01-01 2017-05-30"}],"category":0,"property":""}&tz=-330&eq=date=all&q={{$book->name}}" width="100%;height:380px;" frameborder="0" scrolling="0"></iframe>
