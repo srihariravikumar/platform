@@ -120,7 +120,7 @@
 @stop
 
 @section('scripts')
-    <script src="https://doctub-cdn.firebaseapp.com/js/jqColorPicker.min.js"></script>
+    <script src="https://cdn-doctub.firebaseapp.com/js/jqColorPicker.min.js"></script>
     <script type="text/javascript">
         $('#setting-app-color').colorPicker({
             opacity: false,
