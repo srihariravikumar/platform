@@ -12,6 +12,7 @@
     <link rel="dns-prefetch" href="https://secure.gravatar.com/">
     <link rel="dns-prefetch" href="https://cdn-doctub.firebaseapp.com/">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
 
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="https://cdn-doctub.firebaseapp.com/images/favicon.png" type="image/x-icon"/>
