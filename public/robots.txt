@@ -461,5 +461,5 @@ Disallow: /*/*/edit
 Disallow: /*/*/revisions
 Disallow: /*/*/move
 
-Sitemap: https://doctub-cdn.firebaseapp.com/sitemaps/books-sitemap-1.xml
-Sitemap: https://doctub-cdn.firebaseapp.com/sitemaps/users-sitemap-1.xml
+Sitemap: https://cdn-doctub.firebaseapp.com/sitemaps/books-sitemap-1.xml
+Sitemap: https://cdn-doctub.firebaseapp.com/sitemaps/users-sitemap-1.xml
