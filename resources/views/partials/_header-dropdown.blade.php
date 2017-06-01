@@ -27,6 +27,11 @@
             <a href="https://doctub.github.io/status/" target="_blank"><i style="color:#039be5" class="zmdi zmdi-graphic-eq zmdi-hc-fw zmdi-hc-lg"></i>Status</a>
             <a href="https://gratipay.com/DocTub/" target="_blank"><i style="color:#be1931" class="zmdi zmdi-flower-alt zmdi-hc-fw zmdi-hc-lg"></i>Donate Us</a>
             <a href="{{ baseUrl('/logout') }}" class="text-neg"><i style="color:#651fff" class="zmdi zmdi-run zmdi-hc-fw zmdi-hc-lg"></i>{{ trans('auth.logout') }}</a>
+            <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         </li>
     </ul>
 </div>
