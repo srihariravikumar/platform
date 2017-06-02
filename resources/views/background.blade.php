@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background:">
+<html style="background:linear-gradient(to bottom left,#76c4e2,#8176b5)">
 <head>
     <title>{{ setting('app-name') }}</title>
 
