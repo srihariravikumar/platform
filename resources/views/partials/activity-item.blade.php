@@ -11,7 +11,7 @@
     @if($activity->user)
         <a href="{{ $activity->user->getProfileUrl() }}">{{ $activity->user->name }}</a>
     @else
-        <a href="{{ $activity->user->getProfileUrl() }}">{{ trans('common.deleted_user') }}</a>
+        {{ trans('common.deleted_user') }}
     @endif
 
     {{ $activity->getText() }}
