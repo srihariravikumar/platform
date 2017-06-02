@@ -8,7 +8,7 @@
 
     <div class="text-center">
         <div class="center-box" style="background-color:#fff;border:1px solid #e2e2e2;box-shadow:0 0 5px #888;border-radius:4px;padding-top:25px">
-            <center><a href="{{ baseUrl('/') }}"><img style="height:68px" class="logo-image" src="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/images/logo-250.png" alt="Logo"></a></center>
+            <center><a href="{{ baseUrl('/') }}"><img style="height:68px" class="logo-image" src="https://cdn.jsdelivr.net/gh/doctub/cdn@3.0/images/logo-250.png" alt="Logo"></a></center>
 
             <form action="{{ baseUrl("/register") }}" method="POST">
                 {!! csrf_field() !!}

@@ -120,7 +120,7 @@
 @stop
 
 @section('scripts')
-    <script src="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/js/jqColorPicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/jqColorPicker.min.js"></script>
     <script type="text/javascript">
         $('#setting-app-color').colorPicker({
             opacity: false,
