@@ -14,13 +14,13 @@
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net/">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/css/core-bundle.min.css">
-    <link rel="stylesheet" media="print" href="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/css/core-bundle-1.min.css">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/css/icon-bundle.min.css">
+    <link rel="icon" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/css/core-bundle.min.css">
+    <link rel="stylesheet" media="print" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/css/core-bundle-1.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/css/icon-bundle.min.css">
 
-    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/doctub-query.min.js"></script>
-    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/doctub-query-ui.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/js/doctub-query.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/js/doctub-query-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
@@ -43,7 +43,7 @@
                 <div class="col-lg-4 col-sm-4" ng-non-bindable>
                     <a href="{{ baseUrl('/') }}" class="logo">
                         @if(setting('app-logo', '') !== 'none')
-                            <img class="logo-image" src="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/images/logo-250.png" alt="Logo">
+                            <img class="logo-image" src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/images/logo-250.png" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
                             <span class="logo-text"><b>Doc</b><i>Tub</i></span>
@@ -89,7 +89,7 @@
     </div>
 
 @yield('bottom')
-<script src="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/common.js"></script>
+<script src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/js/common.js"></script>
 @yield('scripts')
 
 </body>

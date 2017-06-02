@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('head')
-    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/jquery-sortable-min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/js/jquery-sortable-min.js"></script>
 @stop
 
 @section('content')

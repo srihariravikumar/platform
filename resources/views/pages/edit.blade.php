@@ -1,7 +1,7 @@
 @extends('editor')
 
 @section('head')
-    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/tinymce/tinymce.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/js/tinymce/tinymce.min.js"></script>
 @stop
 
 @section('body-class', 'flexbox')

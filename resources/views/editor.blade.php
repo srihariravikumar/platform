@@ -14,12 +14,12 @@
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com/">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/css/core-bundle.min.css">
-    <link rel="stylesheet" media="print" href="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/css/core-bundle-1.min.css">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/css/icon-bundle.min.css">
+    <link rel="icon" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/css/core-bundle.min.css">
+    <link rel="stylesheet" media="print" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/css/core-bundle-1.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/css/icon-bundle.min.css">
 
-    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/doctub-query.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/js/doctub-query.min.js"></script>
 
     <script src="{{ baseUrl('/translations') }}"></script>
 
@@ -38,7 +38,7 @@
     </section>
 
 @yield('bottom')
-<script src="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/common.js"></script>
+<script src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/js/common.js"></script>
 @yield('scripts')
 </body>
 </html>
