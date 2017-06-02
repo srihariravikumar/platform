@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <form method="get" class="float right" action="{{ baseUrl("/settings/users")?order=desc&sort=id }}">
+                <form method="get" class="float right" action="{{ baseUrl("/settings/users") }}">
                     @foreach(collect($listDetails)->except('search') as $name => $val)
                         <input type="hidden" name="{{ $name }}" value="{{ $val }}">
                     @endforeach
