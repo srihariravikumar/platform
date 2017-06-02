@@ -16,6 +16,7 @@ Paths for CDN Files
 /platform/resources/views/auth/register.blade.php
 
 
+
 Paths for Gravatar
 /platform/resources/views/components/image-picker.blade.php
 /platform/resources/views/users/index.blade.php
