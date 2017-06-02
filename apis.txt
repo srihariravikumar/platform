@@ -1,20 +1,19 @@
 Paths for CDN Files
 
-/cdn/css/core-bundle.css
-/platform/resources/views/background.blade.php
-/platform/resources/views/base.blade.php
-/platform/resources/views/editor.blade.php
-/platform/resources/views/public.blade.php
-/platform/resources/views/users/profile.blade.php
-/platform/resources/views/settings/index.blade.php
-/platform/resources/views/settings/index.blade.php
-/platform/resources/views/pages/_breadcrumbs.blade.php
-/platform/resources/views/partials/highlight.blade.php
-/platform/resources/views/errors/404.blade.php
-/platform/resources/views/errors/500.blade.php
-/platform/resources/views/auth/login.blade.php
-/platform/resources/views/auth/register.blade.php
-/platform/resources/views/books/sort.blade.php
+1. /cdn/css/core-bundle.css
+2. /platform/resources/views/background.blade.php
+3. /platform/resources/views/base.blade.php
+4. /platform/resources/views/editor.blade.php
+5. /platform/resources/views/public.blade.php
+6. /platform/resources/views/users/profile.blade.php
+7. /platform/resources/views/settings/index.blade.php
+8. /platform/resources/views/pages/_breadcrumbs.blade.php
+9. /platform/resources/views/partials/highlight.blade.php
+10. /platform/resources/views/errors/404.blade.php
+11. /platform/resources/views/errors/500.blade.php
+12. /platform/resources/views/auth/login.blade.php
+13. /platform/resources/views/auth/register.blade.php
+14. /platform/resources/views/books/sort.blade.php
 
 
 Paths for Gravatar
