@@ -11,7 +11,9 @@
     @if($activity->user)
         <a href="{{ $activity->user->getProfileUrl() }}">{{ $activity->user->name }}</a>
     @else
-        {{ trans('common.deleted_user') }}
+        <div class="left">
+            <img class="avatar" src="https://secure.gravatar.com/avatar/000?d=retro&r=x&s=80" alt="{{ $activity->user->name }}">
+        </div>
     @endif
 
     {{ $activity->getText() }}
