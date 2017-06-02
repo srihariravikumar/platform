@@ -12,12 +12,12 @@
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net/">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/css/core-bundle.min.css">
-    <link rel="stylesheet" media="print" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/css/core-bundle-1.min.css">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/css/icon-bundle.min.css">
+    <link rel="icon" href="//unpkg.com/doctub@4.0.0/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="//unpkg.com/doctub@4.0.0/css/core-bundle.min.css">
+    <link rel="stylesheet" media="print" href="//unpkg.com/doctub@4.0.0/css/core-bundle-1.min.css">
+    <link rel="stylesheet" href="//unpkg.com/doctub@4.0.0/css/icon-bundle.min.css">
 
-    <script src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/js/doctub-query.min.js"></script>
+    <script src="//unpkg.com/doctub@4.0.0/js/doctub-query.min.js"></script>
     @include('partials/custom-styles')
 
     <!-- Custom user content -->
@@ -32,6 +32,6 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="//cdn.jsdelivr.net/gh/doctub/cdn@4.0/js/common.js"></script>
+<script src="//unpkg.com/doctub@4.0.0/js/common.js"></script>
 </body>
 </html>
