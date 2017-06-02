@@ -14,7 +14,7 @@ Paths for CDN Files
 /platform/resources/views/errors/500.blade.php
 /platform/resources/views/auth/login.blade.php
 /platform/resources/views/auth/register.blade.php
-
+/platform/resources/views/books/sort.blade.php
 
 
 Paths for Gravatar

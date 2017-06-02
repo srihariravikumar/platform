@@ -1,4 +1,4 @@
-<script src="https://cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/highlight.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/doctub/cdn@3.0/js/highlight.min.js"></script>
 <script>
     $(function() {
         var aCodes = document.getElementsByTagName('pre');
