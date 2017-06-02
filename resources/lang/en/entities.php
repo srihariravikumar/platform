@@ -207,7 +207,7 @@ return [
      */
     'page_tags' => 'Page Tags',
     'tag' => 'Tag',
-    'tags' =>  '',
+    'tags' =>  'Keywords',
     'tag_value' => 'Tag Value (Optional)',
     'tags_explain' => "Add some tags to better categorise your content. \n You can assign a value to a tag for more in-depth organisation.",
     'tags_add' => 'Add another tag',
