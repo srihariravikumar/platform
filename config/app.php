@@ -62,6 +62,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Illuminate\Notifications\NotificationServiceProvider::class,
         SocialiteProviders\Manager\ServiceProvider::class,
+        Fitztrev\LaravelHtmlMinify\LaravelHtmlMinifyServiceProvider
 
         /**
          * Third Party
