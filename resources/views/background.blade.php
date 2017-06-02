@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background-image: url(https://cdn.jsdelivr.net/gh/doctub/cdn@3.0/images/back.png)">
+<html style="background:">
 <head>
     <title>{{ setting('app-name') }}</title>
 
