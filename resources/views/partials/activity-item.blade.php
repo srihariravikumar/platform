@@ -12,7 +12,7 @@
         <a href="{{ $activity->user->getProfileUrl() }}">{{ $activity->user->name }}</a>
     @else
         <div class="left">
-            <img class="avatar" src="https://secure.gravatar.com/avatar/000?d=retro&r=x&s=80" alt="{{ $activity->user->name }}">
+            <img class="avatar" src="https://secure.gravatar.com/avatar/00?d=retro&r=x&s=80" alt="{{ $activity->user->name }}">
         </div>
     @endif
 
