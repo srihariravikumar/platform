@@ -119,13 +119,12 @@
                     <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
                   <h3>Share on Social</h3>
                     <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-<a class="a2a_button_facebook"></a>
-<a class="a2a_button_twitter"></a>
-<a class="a2a_button_google_plus"></a>
-</div>
-
-                    <h3>{{ trans('entities.recent_activity') }}</h3>
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_google_plus"></a>
+                    </div>
+                  <h3>{{ trans('entities.recent_activity') }}</h3>
                     @include('partials/activity-list', ['activity' => Activity::entityActivity($book, 10, 0)])
                 </div>
             </div>
