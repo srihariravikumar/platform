@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "gulp build",
     "production": "gulp build --production",
@@ -41,5 +41,22 @@
   },
   "browser": {
     "vue": "vue/dist/vue.common.js"
-  }
+  },
+  "name": "platform",
+  "description": "## About DocTub",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doctub/platform.git"
+  },
+  "keywords": [
+    "DocTub"
+  ],
+  "author": "DocTub, Inc",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/doctub/platform/issues"
+  },
+  "homepage": "https://github.com/doctub/platform#readme"
 }
