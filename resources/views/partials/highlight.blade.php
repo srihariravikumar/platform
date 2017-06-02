@@ -1,4 +1,4 @@
-<script src="https://cdn-doctub.firebaseapp.com/js/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/js/highlight.min.js"></script>
 <script>
     $(function() {
         var aCodes = document.getElementsByTagName('pre');

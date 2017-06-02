@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background-image: url(https://cdn-doctub.firebaseapp.com/images/back.png)">
+<html style="background-image: url(https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/images/back.png)">
 <head>
     <title>{{ setting('app-name') }}</title>
 
@@ -9,16 +9,16 @@
     <meta name="theme-color" content="#F48024">
     <meta charset="utf-8">
 
-    <link rel="dns-prefetch" href="https://cdn-doctub.firebaseapp.com/">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="https://cdn-doctub.firebaseapp.com/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdn-doctub.firebaseapp.com/css/core-bundle.css">
-    <link rel="stylesheet" media="print" href="https://cdn-doctub.firebaseapp.com/css/core-bundle-1.css">
-    <link rel="stylesheet" href="https://cdn-doctub.firebaseapp.com/css/icon-bundle/css/icon-bundle.min.css">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/css/core-bundle.css">
+    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/css/core-bundle-1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/css/icon-bundle/css/icon-bundle.min.css">
 
-    <script src="https://cdn-doctub.firebaseapp.com/js/doctub-query.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/js/doctub-query.min.js"></script>
     @include('partials/custom-styles')
 
     <!-- Custom user content -->
@@ -33,6 +33,6 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="https://cdn-doctub.firebaseapp.com/js/common.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/doctub/cdn@2.0/js/common.js"></script>
 </body>
 </html>
