@@ -12,6 +12,7 @@
     <link rel="dns-prefetch" href="//secure.gravatar.com/">
     <link rel="dns-prefetch" href="//chart.googleapis.com/">
     <link rel="dns-prefetch" href="//unpkg.com/">
+    <link rel="assets" href="//unpkg.com/">
 
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="//unpkg.com/doctub@4.0.0/images/favicon.png" type="image/x-icon"/>
