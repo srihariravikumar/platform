@@ -3,7 +3,7 @@
 
 @if($activity->user)
     <div class="left">
-        <img class="avatar" src="https://secure.gravatar.com/avatar/{{ md5(strtolower(trim($activity->user->email))) }}?d=identicon&r=x&s=80" alt="{{ $activity->user->name }}">
+        <img class="avatar" src="https://secure.gravatar.com/avatar/{{ md5(strtolower(trim($activity->user->email))) }}?d=retro&r=x&s=80" alt="{{ $activity->user->name }}">
     </div>
 @endif
 

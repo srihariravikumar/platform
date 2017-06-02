@@ -46,7 +46,7 @@
             </tr>
             @foreach($users as $user)
                 <tr>
-                    <td style="line-height: 0;"><img class="avatar med" src="https://secure.gravatar.com/avatar/{{ md5(strtolower(trim($user->email))) }}?d=identicon&r=x&s=80"></td>
+                    <td style="line-height: 0;"><img class="avatar med" src="https://secure.gravatar.com/avatar/{{ md5(strtolower(trim($user->email))) }}?d=retro&r=x&s=80"></td>
                     <td>
                         @if(userCan('users-manage') || $currentUser->id == $user->id)
                             <a href="{{ baseUrl("/user/{$user->id}") }}">
