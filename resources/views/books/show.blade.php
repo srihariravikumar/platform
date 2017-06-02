@@ -118,12 +118,18 @@
                   <h3>QR Code &nbsp;<a href="https://chart.googleapis.com/chart?chs=547x547&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8"><i style="color:#0288d1" class="zmdi zmdi-download"></i></a></h3>
                     <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl={{ $book->getUrl('/') }}&choe=UTF-8">
                   <h3>Share on Social</h3>
-                    <iframe src="https://www.facebook.com/plugins/share_button.php?href={{ $book->getUrl('/') }}&layout=button_count&size=large&mobile_iframe=true&width=108&height=28&appId" width="108" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_google_plus"></a>
+</div>
+
                     <h3>{{ trans('entities.recent_activity') }}</h3>
                     @include('partials/activity-list', ['activity' => Activity::entityActivity($book, 10, 0)])
                 </div>
             </div>
         </div>
     </div>
-
+<script async src="//unpkg.com/doctub@5.0.0/js/share.js"></script>
 @stop
