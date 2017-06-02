@@ -9,8 +9,8 @@
     <meta name="theme-color" content="#F48024">
     <meta charset="utf-8">
 
-    <link rel="dns-prefetch" href="https://secure.gravatar.com/">
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net/">
+    <link rel="dns-prefetch" href="//secure.gravatar.com/">
+    <link rel="dns-prefetch" href="//unpkg.com/">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com/">
 
     <link rel="manifest" href="/manifest.json">
