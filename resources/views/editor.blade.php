@@ -36,7 +36,7 @@
     </section>
 
 @yield('bottom')
-<script src="https://cdn.jsdelivr.net/npm/doctub/js/common.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/doctub/js/js-bundle.js"></script>
 @yield('scripts')
 </body>
 </html>
