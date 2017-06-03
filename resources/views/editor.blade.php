@@ -34,7 +34,6 @@
     <section id="content" class="block">
         @yield('content')
     </section>
-
 @yield('bottom')
 <script src="https://cdn.jsdelivr.net/npm/doctub/js/js-bundle.js"></script>
 @yield('scripts')
