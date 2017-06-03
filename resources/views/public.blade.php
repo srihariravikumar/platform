@@ -19,7 +19,7 @@
     <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/doctub/css/core-bundle-1.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doctub/css/icon-bundle.css">
 
-    <script src="https://cdn.jsdelivr.net/combine/npm/doctub/js/doctub-query.min.js,npm/doctub/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/doctub/js/doctub-query.min.js"></script>
     @include('partials/custom-styles')
 
     <!-- Custom user content -->
