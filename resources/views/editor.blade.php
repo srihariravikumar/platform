@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/doctub/css/core-bundle.min.css,npm/doctub/css/icon-bundle.css">
     <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/doctub/css/core-bundle-1.css">
 
-    <script src="https://cdn.jsdelivr.net/combine/npm/doctub/js/doctub-query-ui.min.js,npm/doctub/js/doctub-query-ui.min.js,npm/doctub/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/combine/npm/doctub/js/doctub-query-ui.min.js,npm/doctub/js/doctub-query-ui.min.js"></script>
 
     <script src="{{ baseUrl('/translations') }}"></script>
 
@@ -35,5 +35,8 @@
         @yield('content')
     </section>
 
+@yield('bottom')
+<script src="https://cdn.jsdelivr.net/npm/doctub/js/common.js"></script>
+@yield('scripts')
 </body>
 </html>
