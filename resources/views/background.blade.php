@@ -19,10 +19,6 @@
     <script src="https://cdn.jsdelivr.net/npm/doctub/js/doctub-query.min.js"></script>
     @include('partials/custom-styles')
 
-    <!-- Custom user content -->
-    @if(setting('app-custom-head'))
-        {!! setting('app-custom-head') !!}
-    @endif
 </head>
 <body class="@yield('body-class')" ng-app="bookStack">
 
