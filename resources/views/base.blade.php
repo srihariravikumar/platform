@@ -86,9 +86,5 @@
         </div>
     </div>
 
-@yield('bottom')
-<script src="https://cdn.jsdelivr.net/npm/doctub/js/common.js"></script>
-@yield('scripts')
-
 </body>
 </html>
