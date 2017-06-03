@@ -17,8 +17,9 @@
     <link rel="icon" href="https://cdn.jsdelivr.net/npm/doctub/images/favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/doctub/css/core-bundle.min.css,npm/doctub/css/icon-bundle.css">
     <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/doctub/css/core-bundle-1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doctub/css/icon-bundle.css">
 
-    <script src="https://cdn.jsdelivr.net/combine/npm/doctub/js/doctub-query-ui.min.js,npm/doctub/js/doctub-query-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/combine/npm/doctub/js/doctub-query.min.js,npm/doctub/js/common.js"></script>
     @include('partials/custom-styles')
 
     <!-- Custom user content -->
