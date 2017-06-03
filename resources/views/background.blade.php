@@ -9,7 +9,7 @@
     <meta name="theme-color" content="#F48024">
     <meta charset="utf-8">
 
-    <link rel="dns-prefetch" href="//unpkg.com/">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/images/favicon.png" type="image/x-icon"/>
