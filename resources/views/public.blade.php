@@ -34,7 +34,6 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-
                 <a href="{{ baseUrl('/') }}" class="logo">
                     @if(setting('app-logo', '') !== 'none')
                         <img class="logo-image" src="https://cdn.jsdelivr.net/npm/doctub/images/logo-250.png" alt="Logo">

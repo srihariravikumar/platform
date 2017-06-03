@@ -79,16 +79,13 @@
     <section id="content" class="block">
         @yield('content')
     </section>
-
     <div id="back-to-top">
         <div class="inner">
             <i class="zmdi zmdi-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
         </div>
     </div>
-
 @yield('bottom')
 <script src="https://cdn.jsdelivr.net/npm/doctub/js/common.min.js"></script>
 @yield('scripts')
-
 </body>
 </html>

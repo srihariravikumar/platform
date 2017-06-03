@@ -18,12 +18,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/doctub/js/doctub-query.min.js"></script>
     @include('partials/custom-styles')
-
 </head>
 <body class="@yield('body-class')" ng-app="bookStack">
-
 @include('partials.notifications')
-
 <section class="container">
     @yield('content')
 </section>

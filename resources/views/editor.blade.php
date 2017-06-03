@@ -30,7 +30,6 @@
 <body class="@yield('body-class')" ng-app="bookStack">
 
     @include('partials/notifications')
-
     <section id="content" class="block">
         @yield('content')
     </section>
