@@ -15,7 +15,7 @@
 
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/core-bundle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/core-bundle.min.css">
     <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/core-bundle-1.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/icon-bundle.css">
 
