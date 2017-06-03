@@ -10,15 +10,14 @@
     <meta charset="utf-8">
 
     <link rel="dns-prefetch" href="//unpkg.com/">
-    <link rel="assets" href="//unpkg.com/">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="//unpkg.com/doctub@4.0.0/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="//unpkg.com/doctub@4.0.0/css/core-bundle.css">
-    <link rel="stylesheet" media="print" href="//unpkg.com/doctub@4.0.0/css/core-bundle-1.css">
-    <link rel="stylesheet" href="//unpkg.com/doctub@4.0.0/css/icon-bundle.css">
+    <link rel="icon" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/core-bundle.css">
+    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/core-bundle-1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/icon-bundle.css">
 
-    <script src="//unpkg.com/doctub@4.0.0/js/doctub-query.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/doctub@7.0.0/js/doctub-query.min.js"></script>
     @include('partials/custom-styles')
 
     <!-- Custom user content -->
@@ -33,6 +32,6 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="//unpkg.com/doctub@4.0.0/js/common.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/doctub@7.0.0/js/common.js"></script>
 </body>
 </html>

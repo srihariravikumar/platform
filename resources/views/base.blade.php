@@ -12,16 +12,15 @@
     <link rel="dns-prefetch" href="//secure.gravatar.com/">
     <link rel="dns-prefetch" href="//chart.googleapis.com/">
     <link rel="dns-prefetch" href="//unpkg.com/">
-    <link rel="assets" href="//unpkg.com/">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="//unpkg.com/doctub@4.0.0/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="//unpkg.com/doctub@4.0.0/css/core-bundle.css">
-    <link rel="stylesheet" media="print" href="//unpkg.com/doctub@4.0.0/css/core-bundle-1.css">
-    <link rel="stylesheet" href="//unpkg.com/doctub@4.0.0/css/icon-bundle.css">
+    <link rel="icon" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/core-bundle.css">
+    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/core-bundle-1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doctub@7.0.0/css/icon-bundle.css">
 
-    <script src="//unpkg.com/doctub@4.0.0/js/doctub-query.min.js"></script>
-    <script src="//unpkg.com/doctub@4.0.0/js/doctub-query-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/doctub@7.0.0/js/doctub-query.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/doctub@7.0.0/js/doctub-query-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
@@ -44,7 +43,7 @@
                 <div class="col-lg-4 col-sm-4" ng-non-bindable>
                     <a href="{{ baseUrl('/') }}" class="logo">
                         @if(setting('app-logo', '') !== 'none')
-                            <img class="logo-image" src="//unpkg.com/doctub@4.0.0/images/logo-250.png" alt="Logo">
+                            <img class="logo-image" src="https://cdn.jsdelivr.net/npm/doctub@7.0.0/images/logo-250.png" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
                             <span class="logo-text"><b>Doc</b><i>Tub</i></span>
@@ -90,7 +89,7 @@
     </div>
 
 @yield('bottom')
-<script src="//unpkg.com/doctub@4.0.0/js/common.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/doctub@7.0.0/js/common.js"></script>
 @yield('scripts')
 
 </body>
