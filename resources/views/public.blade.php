@@ -59,6 +59,6 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="https://cdn.jsdelivr.net/npm/doctub/js/js-bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/doctub/c.js"></script>
 </body>
 </html>
