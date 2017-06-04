@@ -4,6 +4,8 @@
     <title>{{ setting('app-name') }}</title>
 
     @include('/assets')
+    
+    @yield('head')
 
 </head>
 <body class="@yield('body-class')" ng-app="bookStack">

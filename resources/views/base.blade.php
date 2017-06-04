@@ -4,6 +4,8 @@
     <title>{{ isset($pageTitle) ? $pageTitle . ' | ' : '' }}{{ setting('app-name') }}</title>
     
     @include('/assets')
+    
+    
 
 </head>
 <body class="@yield('body-class')" ng-app="bookStack">
