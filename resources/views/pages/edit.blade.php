@@ -1,4 +1,4 @@
-@extends('editor')
+@extends('pages/editor')
 
 @section('head')
     <script src="{{ cdnUrl() }}/js/tinymce/tinymce.min.js"></script>
