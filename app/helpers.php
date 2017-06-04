@@ -16,7 +16,7 @@ use BookStack\Ownable;
 
 function cdnUrl(){
     
-    return config('app.cdn');
+    return rtrim(config('app.url');
     
 }
 
