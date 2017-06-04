@@ -1,4 +1,4 @@
-@extends('background')
+@extends('auth/background')
 
 @section('header-buttons')
     @if(setting('registration-enabled', false))
