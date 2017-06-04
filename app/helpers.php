@@ -178,22 +178,30 @@ function sortUrl($path, $data, $overrideData = [])
     return baseUrl($path . '?' . implode('&', $queryStringSections));
 }
 
-function cdnUrl($path, $forceAppDomain = false)
+function cdnUrl($url = null)
 {
-    $isFullUrl = strpos($path, 'http') === 0;
-    if ($isFullUrl && !$forceAppDomain) return $path;
-    $path = trim($path, '/');
-
-    // Remove non-specified domain if forced and we have a domain
-    if ($isFullUrl && $forceAppDomain) {
-        $explodedPath = explode('/', $path);
-        $path = implode('/', array_splice($explodedPath, 3));
+    $url = (string) $url;
+    if(empty($url))
+    {
+        throw new Exception('URL missing');
     }
 
-    // Return normal url path if not specified in config
-    if (config('app.cdn') === '') {
-        return url($path);
+    $pattern = '|^http[s]{0,1}://|i';        
+    if(preg_match($pattern, $url))
+    {
+        throw new Exception('Invalid URL. ' .
+            'Use: /image.jpeg instead of full URI: ' .
+            'http://domain.com/image.jpeg.'
+        );
+    }
+        
+    $pattern = '|^/|';        
+    if(!preg_match($pattern, $url))
+    {
+        $url = '/' . $url;
     }
 
-    return rtrim(config('app.cdn'), '/') . '/' . $path;
-}
+    {
+        return Config::get('app.cdn_protocol') . '://' . Config::get('app.cdn') . $url;
+    }    
+}   
