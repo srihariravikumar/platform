@@ -22,7 +22,7 @@ let setupPageShow = window.setupPageShow = function (pageId) {
     $pointer.on('click', 'span.icon', event => {
         let $icon = $(event.currentTarget);
         pointerModeLink = !pointerModeLink;
-        $icon.html(pointerModeLink ? '<i class="zmdi zmdi-link"></i>' : '<i class="zmdi zmdi-square-down"></i>');
+        $icon.html(pointerModeLink ? '<i class="fa fa-link"></i>' : '<i class="fa fa-level-down"></i>');
         updatePointerContent();
     });
 
@@ -33,7 +33,7 @@ let setupPageShow = window.setupPageShow = function (pageId) {
     $(document.body).find('*').on('click focus', event => {
         if (!pointerShowing || isSelection) return;
         let target = $(event.target);
-        if (target.is('.zmdi') || $(event.target).closest('#pointer').length === 1) return;
+        if (target.is('.fa') || $(event.target).closest('#pointer').length === 1) return;
 
         $pointer.detach();
         pointerShowing = false;
