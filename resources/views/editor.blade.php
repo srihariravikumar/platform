@@ -13,12 +13,12 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="https://unpkg.com/doctub/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://unpkg.com/doctub/css/core-bundle.css">
-    <link rel="stylesheet" media="print" href="https://unpkg.com/doctub/css/core-bundle-1.css">
-    <link rel="stylesheet" href="https://unpkg.com/doctub/css/fa-doctub.css">
+    <link rel="icon" href="https://unpkg.com/doctub@12.0.0/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://unpkg.com/doctub@12.0.0/css/core-bundle.css">
+    <link rel="stylesheet" media="print" href="https://unpkg.com/doctub@12.0.0/css/core-bundle-1.css">
+    <link rel="stylesheet" href="https://unpkg.com/doctub@12.0.0/css/fa-doctub.css">
 
-    <script src="https://unpkg.com/doctub/js/doctub-query.min.js"></script>
+    <script src="https://unpkg.com/doctub@12.0.0/js/doctub@12.0.0-query.min.js"></script>
 
     <script src="{{ baseUrl('/translations') }}"></script>
 
@@ -35,7 +35,7 @@
         @yield('content')
     </section>
 @yield('bottom')
-<script src="https://unpkg.com/doctub/js/js-bundle.js"></script>
+<script src="https://unpkg.com/doctub@12.0.0/js/js-bundle.js"></script>
 @yield('scripts')
 </body>
 </html>
