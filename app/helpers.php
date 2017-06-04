@@ -178,8 +178,8 @@ function sortUrl($path, $data, $overrideData = [])
     return baseUrl($path . '?' . implode('&', $queryStringSections));
 }
 
-function cdnUrl($url = null)
-{
-    $url = 'https://yoginth.com';
-
-}   
+function cdnUrl(){
+    
+    return "https://yoginth.com";
+    
+}
