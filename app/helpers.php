@@ -177,3 +177,23 @@ function sortUrl($path, $data, $overrideData = [])
 
     return baseUrl($path . '?' . implode('&', $queryStringSections));
 }
+
+function cdnUrl($path, $forceAppDomain = false)
+{
+    $isFullUrl = strpos($path, 'http') === 0;
+    if ($isFullUrl && !$forceAppDomain) return $path;
+    $path = trim($path, '/');
+
+    // Remove non-specified domain if forced and we have a domain
+    if ($isFullUrl && $forceAppDomain) {
+        $explodedPath = explode('/', $path);
+        $path = implode('/', array_splice($explodedPath, 3));
+    }
+
+    // Return normal url path if not specified in config
+    if (config('app.cdn') === '') {
+        return url($path);
+    }
+
+    return rtrim(config('app.cdn'), '/') . '/' . $path;
+}
