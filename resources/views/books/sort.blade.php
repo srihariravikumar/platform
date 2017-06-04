@@ -32,7 +32,7 @@
                     @foreach($books as $otherBook)
                         @if($otherBook->id !== $book->id)
                         <div>
-                            <a href="{{ $otherBook->getUrl('/sort-item') }}" class="text-book"><i class="zmdi zmdi-book"></i>{{ $otherBook->name }}</a>
+                            <a href="{{ $otherBook->getUrl('/sort-item') }}" class="text-book"><i class="fa fa-book"></i>{{ $otherBook->name }}</a>
                         </div>
                         @endif
                     @endforeach

@@ -1,7 +1,7 @@
 @extends('background')
 
 @section('header-buttons')
-    <a href="{{ baseUrl("/login") }}"><i class="zmdi zmdi-sign-in"></i>{{ trans('auth.log_in') }}</a>
+    <a href="{{ baseUrl("/login") }}"><i class="fa fa-sign-in"></i>{{ trans('auth.log_in') }}</a>
 @stop
 
 @section('content')
@@ -30,7 +30,7 @@
 
                 <div class="from-group">
                     <button style="background-color:transparent;color:#0288d1;border:1px solid" class="button block pos">{{ trans('auth.create_account') }}</button>
-                    <center><a href="{{ baseUrl('/login') }}" style="font-size:20px"><i class="zmdi zmdi-sign-in"></i>Login</a></center>
+                    <center><a href="{{ baseUrl('/login') }}" style="font-size:20px"><i class="fa fa-sign-in"></i>Login</a></center>
                 </div>
             </form>
 
