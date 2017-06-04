@@ -5,10 +5,11 @@
     <meta charset="utf-8">
 
     <link rel="dns-prefetch" href="https://secure.gravatar.com">
-    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://unpkg.com">
+    <link rel="assets" href="https://unpkg.com">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="https://unpkg.com/doctub@12.0.0/images/favicon.png" type="image/x-icon"/>
+    <link rel="icon" href="https://unpkg.com/doctub@"{{ @include('/assets') }}"/images/favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://unpkg.com/doctub@12.0.0/css/core-bundle.css">
     <link rel="stylesheet" media="print" href="https://unpkg.com/doctub@12.0.0/css/core-bundle-1.css">
     <link rel="stylesheet" href="https://unpkg.com/doctub@12.0.0/css/fa-doctub.css">
