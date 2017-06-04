@@ -5,7 +5,6 @@
 </div>
 
 <div class="form-group description-input">
-    <label for="description">{{ trans('common.description') }}</label>
     @include('form/textarea', ['name' => 'description', 'placeholder' => "Description"])
 </div>
 
