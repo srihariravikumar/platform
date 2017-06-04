@@ -7,7 +7,7 @@
 
     <center>
     <h1>{{ $message or trans('errors.404_page_not_found') }}</h1>
-    <p><img style="height:200px" src="https://cdn.jsdelivr.net/npm/doctub/images/error.gif"></p>
+    <p><img style="height:200px" src="https://cdn.jsdelivr.net/npm/doctub@9.0.0/images/error.gif"></p>
     <p><a href="{{ baseUrl('/') }}" class="button">{{ trans('errors.return_home') }}</a></p>
     </center>
 

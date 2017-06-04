@@ -12,11 +12,11 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="https://cdn.jsdelivr.net/npm/doctub/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/doctub/css/core-bundle.min.css,npm/doctub/css/icon-bundle.min.css">
-    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/doctub/css/core-bundle-1.css">
+    <link rel="icon" href="https://cdn.jsdelivr.net/npm/doctub@9.0.0/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/doctub@9.0.0/css/core-bundle.min.css,npm/doctub@9.0.0/css/icon-bundle.min.css">
+    <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/doctub@9.0.0/css/core-bundle-1.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/doctub/js/doctub-query.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/doctub@9.0.0/js/doctub-query.min.js"></script>
     @include('partials/custom-styles')
 </head>
 <body class="@yield('body-class')" ng-app="bookStack">
@@ -24,6 +24,6 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="https://cdn.jsdelivr.net/npm/doctub/js/js-bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/doctub@9.0.0/js/js-bundle.js"></script>
 </body>
 </html>
