@@ -7,7 +7,6 @@
 
     @yield('head')
 
-
 </head>
 <body class="@yield('body-class')" ng-app="bookStack">
 
