@@ -20,11 +20,7 @@ return [
 
     'url' => 'https://friendstub.com',
     
-    'cdn_enabled'   => true,
-    
-    'cdn_domain'    => 'yoginth.com',
-    
-    'cdn_protocol'  => 'https',
+    'cdn' => 'https://yoginth.com',
 
     'timezone' => 'UTC',
 
