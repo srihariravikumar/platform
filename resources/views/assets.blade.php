@@ -19,6 +19,8 @@
     <script src="{{ baseUrl('/translations') }}"></script>
     
     @include('partials/custom-styles')
+    
+    @yield('head')
 
     <!-- Custom user content -->
     @if(setting('app-custom-head'))
