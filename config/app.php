@@ -12,7 +12,6 @@
 
 return [
 
-
     'env' => env('APP_ENV', 'production'),
 
     'editor' => env('APP_EDITOR', 'html'),
@@ -21,7 +20,11 @@ return [
 
     'url' => 'https://friendstub.com',
     
-    'cdn' => 'https://yoginth.com',
+    'cdn_enabled'   => true,
+    
+    'cdn_domain'    => 'yoginth.com',
+    
+    'cdn_protocol'  => 'https',
 
     'timezone' => 'UTC',
 
