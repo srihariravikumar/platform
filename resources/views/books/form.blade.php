@@ -6,7 +6,7 @@
 </div>
 
 <div class="form-group description-input">
-    <label for="description"><i class="fa fa-info-circle fa-fw"></i{{ trans('common.description') }}</label>
+    <label for="description"><i class="fa fa-info-circle fa-fw"></i>{{ trans('common.description') }}</label>
     @include('form/textarea', ['name' => 'description'])
 </div>
 
