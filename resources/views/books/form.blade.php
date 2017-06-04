@@ -1,11 +1,13 @@
 
 {{ csrf_field() }}
 <div class="form-group title-input">
-    @include('form/text', ['name' => 'name', 'placeholder' => "Name"])
+    <label for="name">{{ trans('common.name') }}</label>
+    @include('form/text', ['name' => 'name'])
 </div>
 
 <div class="form-group description-input">
-    @include('form/textarea', ['name' => 'description', 'placeholder' => "Description"])
+    <label for="description">{{ trans('common.description') }}</label>
+    @include('form/textarea', ['name' => 'description'])
 </div>
 
 <div class="form-group">
