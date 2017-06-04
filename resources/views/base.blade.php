@@ -52,19 +52,19 @@
                 <div class="col-lg-4 col-sm-3 text-center">
                     <form action="{{ baseUrl('/search') }}" method="GET" class="search-box">
                         <input id="header-search-box-input" placeholder="Search in DocTub" type="text" name="term" tabindex="2" value="{{ isset($searchTerm) ? $searchTerm : '' }}">
-                        <button id="header-search-box-button" type="submit" class="text-button"><i class="zmdi zmdi-search"></i></button>
+                        <button id="header-search-box-button" type="submit" class="text-button"><i class="fa fa-search"></i></button>
                     </form>
                 </div>
                 <div class="col-lg-4 col-sm-5">
                     <div class="float right">
                         <div class="links text-center">
-                          <a href="{{ baseUrl('/books') }}" style="background:#8ECC4C;text-shadow:0 1px 1px rgba(0, 0, 0, 0.5)"><i class="zmdi zmdi-book"></i>{{ trans('entities.books') }}</a>
+                          <a href="{{ baseUrl('/books') }}" style="background:#8ECC4C;text-shadow:0 1px 1px rgba(0, 0, 0, 0.5)"><i class="fa fa-book"></i>{{ trans('entities.books') }}</a>
                             @if(!signedInUser())
-                                <a href="{{ baseUrl('/register') }}" style="background:#f05330"><i class="zmdi zmdi-account-add"></i>Sign Up</a>
+                                <a href="{{ baseUrl('/register') }}" style="background:#f05330"><i class="fa fa-plus"></i>Sign Up</a>
                                 <a href="{{ baseUrl('/login') }}" style="background:transparent;box-shadow:0 2px 2px transparent">{{ trans('auth.log_in') }}</a>
                             @endif
                             @if(signedInUser())
-                                <a href="{{ baseUrl('/books/create') }}" style="background:#f05330"><i class="zmdi zmdi-plus"></i>Create</a>
+                                <a href="{{ baseUrl('/books/create') }}" style="background:#f05330"><i class="fa fa-plus"></i>Create</a>
                             @endif
                         </div>
                         @if(signedInUser())
@@ -82,7 +82,7 @@
     </section>
     <div id="back-to-top">
         <div class="inner">
-            <i class="zmdi zmdi-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
+            <i class="fa fa-chevron-up"></i> <span>{{ trans('common.back_to_top') }}</span>
         </div>
     </div>
 @yield('bottom')

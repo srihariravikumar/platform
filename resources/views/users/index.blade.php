@@ -15,7 +15,7 @@
             <div class="col-sm-4">
                 <p></p>
                 @if(userCan('users-manage'))
-                    <a href="{{ baseUrl("/settings/users/create") }}" class="pos button float right"><i class="zmdi zmdi-account-add"></i>{{ trans('settings.users_add_new') }}</a>
+                    <a href="{{ baseUrl("/settings/users/create") }}" class="pos button float right"><i class="fa fa-plus"></i>{{ trans('settings.users_add_new') }}</a>
                 @endif
             </div>
         </div>
@@ -83,7 +83,7 @@
                         @if(userCan('users-manage') || $currentUser->id == $user->id)
                             <a href="{{ baseUrl("/settings/users/{$user->id}") }}">
                                 @endif
-                                <i class="zmdi zmdi-settings zmdi-hc-fw zmdi-hc-lg"></i>
+                                <i class="fa fa-cog fa-hc-fw fa-hc-lg"></i>
                                 @if(userCan('users-manage') || $currentUser->id == $user->id)
                             </a>
                         @endif

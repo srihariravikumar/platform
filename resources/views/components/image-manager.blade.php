@@ -12,16 +12,16 @@
                 <div class="image-manager-content">
                     <div ng-if="imageType === 'gallery'" class="container">
                         <div class="image-manager-header row faded-small nav-tabs">
-                            <div class="col-xs-4 tab-item" title="{{ trans('components.image_all_title') }}" ng-class="{selected: (view=='all')}" ng-click="setView('all')"><i class="zmdi zmdi-collection-image"></i> {{ trans('components.image_all') }}</div>
-                            <div class="col-xs-4 tab-item" title="{{ trans('components.image_book_title') }}" ng-class="{selected: (view=='book')}" ng-click="setView('book')"><i class="zmdi zmdi-book text-book"></i> {{ trans('entities.book') }}</div>
-                            <div class="col-xs-4 tab-item" title="{{ trans('components.image_page_title') }}" ng-class="{selected: (view=='page')}" ng-click="setView('page')"><i class="zmdi zmdi-file-text text-page"></i> {{ trans('entities.page') }}</div>
+                            <div class="col-xs-4 tab-item" title="{{ trans('components.image_all_title') }}" ng-class="{selected: (view=='all')}" ng-click="setView('all')"><i class="fa fa-picture-o"></i> {{ trans('components.image_all') }}</div>
+                            <div class="col-xs-4 tab-item" title="{{ trans('components.image_book_title') }}" ng-class="{selected: (view=='book')}" ng-click="setView('book')"><i class="fa fa-book text-book"></i> {{ trans('entities.book') }}</div>
+                            <div class="col-xs-4 tab-item" title="{{ trans('components.image_page_title') }}" ng-class="{selected: (view=='page')}" ng-click="setView('page')"><i class="fa fa-file-text text-page"></i> {{ trans('entities.page') }}</div>
                         </div>
                     </div>
                     <div ng-show="view === 'all'" >
                         <form ng-submit="searchImages()" class="contained-search-box">
                             <input type="text" placeholder="{{ trans('components.image_search_hint') }}" ng-model="searchTerm">
-                            <button ng-class="{active: searching}" title="{{ trans('common.search_clear') }}" type="button" ng-click="cancelSearch()" class="text-button cancel"><i class="zmdi zmdi-close-circle-o"></i></button>
-                            <button title="{{ trans('common.search') }}" class="text-button" type="submit"><i class="zmdi zmdi-search"></i></button>
+                            <button ng-class="{active: searching}" title="{{ trans('common.search_clear') }}" type="button" ng-click="cancelSearch()" class="text-button cancel"><i class="fa fa-window-close"></i></button>
+                            <button title="{{ trans('common.search') }}" class="text-button" type="submit"><i class="fa fa-search"></i></button>
                         </form>
                     </div>
                     <div class="image-manager-list">
@@ -69,10 +69,10 @@
 
                             <div class="clearfix">
                                 <form class="float left" ng-submit="deleteImage($event)">
-                                    <button class="button icon neg"><i class="zmdi zmdi-delete"></i></button>
+                                    <button class="button icon neg"><i class="fa fa-trash"></i></button>
                                 </form>
                                 <button class="button pos anim fadeIn float right" ng-show="selectedImage" ng-click="selectButtonClick()">
-                                    <i class="zmdi zmdi-square-right"></i>{{ trans('components.image_select_image') }}
+                                    <i class="fa fa-check-square-o"></i>{{ trans('components.image_select_image') }}
                                 </button>
                             </div>
 

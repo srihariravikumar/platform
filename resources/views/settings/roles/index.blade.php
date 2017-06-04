@@ -12,7 +12,7 @@
             </div>
             <div class="col-sm-4">
                 <p></p>
-                <a href="{{ baseUrl("/settings/roles/new") }}" class="button float right pos"><i class="zmdi zmdi-lock-open"></i>{{ trans('settings.role_create') }}</a>
+                <a href="{{ baseUrl("/settings/roles/new") }}" class="button float right pos"><i class="fa fa-unlock-alt"></i>{{ trans('settings.role_create') }}</a>
             </div>
         </div>
 

@@ -7,9 +7,9 @@
             <div class="row">
                 <div class="col-sm-12 faded">
                     <div class="breadcrumbs">
-                        <a href="{{ baseUrl("/settings/users") }}" class="text-button"><i class="zmdi zmdi-accounts"></i>Users</a>
+                        <a href="{{ baseUrl("/settings/users") }}" class="text-button"><i class="fa fa-users"></i>Users</a>
                         <span class="sep">&raquo;</span>
-                        <a href="{{ baseUrl("/settings/users/{$user->id}") }}" class="text-button"><i class="zmdi zmdi-account"></i>{{ $user->name }}</a>
+                        <a href="{{ baseUrl("/settings/users/{$user->id}") }}" class="text-button"><i class="fa fa-users"></i>{{ $user->name }}</a>
                     </div>
                 </div>
             </div>

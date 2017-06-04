@@ -17,7 +17,7 @@
                             <div>
                                 <h3 style="margin-top:0">{{ $user->name }}&nbsp;<img style="height:25px" src="https://cdn.jsdelivr.net/npm/doctub@9.0.0/images/badge.png"></img></h3>
                                 <p class="text-muted">
-                                    <i style="color:rgb(142, 204, 76)" class="zmdi zmdi-time"></i>{{ trans('entities.profile_user_for_x', ['time' => $user->created_at->diffForHumans(null, true)]) }}
+                                    <i style="color:rgb(142, 204, 76)" class="fa fa-clock-o"></i>{{ trans('entities.profile_user_for_x', ['time' => $user->created_at->diffForHumans(null, true)]) }}
                                 </p>
                             </div>
                         </div>
@@ -25,13 +25,13 @@
                     <div class="col-md-5 text-bigger" id="content-counts">
                         <div class="text-muted">{{ trans('entities.profile_created_content') }}</div>
                         <div class="text-book">
-                            <i class="zmdi zmdi-book zmdi-hc-fw"></i> {{ $assetCounts['books'] }} {{ str_plural(trans('entities.book'), $assetCounts['books']) }}
+                            <i class="fa fa-book fa-hc-fw"></i> {{ $assetCounts['books'] }} {{ str_plural(trans('entities.book'), $assetCounts['books']) }}
                         </div>
                         <div class="text-chapter">
-                            <i class="zmdi zmdi-collection-bookmark zmdi-hc-fw"></i> {{ $assetCounts['chapters'] }} {{ str_plural(trans('entities.chapter'), $assetCounts['chapters']) }}
+                            <i class="fa fa-bookmark fa-hc-fw"></i> {{ $assetCounts['chapters'] }} {{ str_plural(trans('entities.chapter'), $assetCounts['chapters']) }}
                         </div>
                         <div class="text-page">
-                            <i class="zmdi zmdi-file-text zmdi-hc-fw"></i> {{ $assetCounts['pages'] }} {{ str_plural(trans('entities.page'), $assetCounts['pages']) }}
+                            <i class="fa fa-file-text fa-hc-fw"></i> {{ $assetCounts['pages'] }} {{ str_plural(trans('entities.page'), $assetCounts['pages']) }}
                         </div>
                     </div>
                 </div>

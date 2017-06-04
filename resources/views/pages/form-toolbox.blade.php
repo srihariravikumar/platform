@@ -2,10 +2,10 @@
 <div toolbox class="floating-toolbox">
 
     <div class="tabs primary-background-light">
-        <span toolbox-toggle><i class="zmdi zmdi-caret-left-circle"></i></span>
-        <span toolbox-tab-button="tags" title="{{ trans('entities.page_tags') }}" class="active"><i class="zmdi zmdi-tag"></i></span>
+        <span toolbox-toggle><i class="fa fa-caret-left"></i></span>
+        <span toolbox-tab-button="tags" title="{{ trans('entities.page_tags') }}" class="active"><i class="fa fa-tag"></i></span>
         @if(userCan('attachment-create-all'))
-            <span toolbox-tab-button="files" title="{{ trans('entities.attachments') }}"><i class="zmdi zmdi-attachment"></i></span>
+            <span toolbox-tab-button="files" title="{{ trans('entities.attachments') }}"><i class="fa fa-paperclip"></i></span>
         @endif
     </div>
 
@@ -16,10 +16,10 @@
             <table class="no-style" tag-autosuggestions style="width: 100%;">
                 <tbody ui-sortable="sortOptions" ng-model="tags" >
                     <tr ng-repeat="tag in tags track by $index">
-                        <td width="20" ><i class="handle zmdi zmdi-menu"></i></td>
+                        <td width="20" ><i class="handle fa fa-bars"></i></td>
                         <td><input autosuggest="{{ baseUrl('/ajax/tags/suggest/names') }}" autosuggest-type="name" class="outline" ng-attr-name="tags[@{{$index}}][name]" type="text" ng-model="tag.name" ng-change="tagChange(tag)" ng-blur="tagBlur(tag)" placeholder="{{ trans('entities.tag') }}"></td>
                         <td><input autosuggest="{{ baseUrl('/ajax/tags/suggest/values') }}" autosuggest-type="value" class="outline" ng-attr-name="tags[@{{$index}}][value]" type="text" ng-model="tag.value" ng-change="tagChange(tag)" ng-blur="tagBlur(tag)" placeholder="{{ trans('entities.tag_value') }}"></td>
-                        <td width="10" ng-show="tags.length != 1" class="text-center text-neg" style="padding: 0;" ng-click="removeTag(tag)"><i class="zmdi zmdi-close"></i></td>
+                        <td width="10" ng-show="tags.length != 1" class="text-center text-neg" style="padding: 0;" ng-click="removeTag(tag)"><i class="fa fa-times"></i></td>
                     </tr>
                 </tbody>
             </table>
@@ -55,7 +55,7 @@
                             <table class="file-table" style="width: 100%;">
                                 <tbody ui-sortable="sortOptions" ng-model="files" >
                                 <tr ng-repeat="file in files track by $index">
-                                    <td width="20" ><i class="handle zmdi zmdi-menu"></i></td>
+                                    <td width="20" ><i class="handle fa fa-bars"></i></td>
                                     <td>
                                         <a ng-href="@{{getFileUrl(file)}}" target="_blank" ng-bind="file.name"></a>
                                         <div ng-if="file.deleting">
@@ -64,9 +64,9 @@
                                             <span class="text-primary small" ng-click="file.deleting=false;">{{ trans('common.cancel') }}</span>
                                         </div>
                                     </td>
-                                    <td width="10" ng-click="startEdit(file)" class="text-center text-primary" style="padding: 0;"><i class="zmdi zmdi-edit"></i></td>
+                                    <td width="10" ng-click="startEdit(file)" class="text-center text-primary" style="padding: 0;"><i class="fa fa-pencil"></i></td>
                                     <td width="5"></td>
-                                    <td width="10" ng-click="deleteFile(file)" class="text-center text-neg" style="padding: 0;"><i class="zmdi zmdi-close"></i></td>
+                                    <td width="10" ng-click="deleteFile(file)" class="text-center text-neg" style="padding: 0;"><i class="fa fa-times"></i></td>
                                 </tr>
                                 </tbody>
                             </table>

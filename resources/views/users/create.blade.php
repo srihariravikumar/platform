@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-sm-12 faded">
                     <div class="breadcrumbs">
-                        <a href="{{ baseUrl('/settings/users') }}" class="text-button"><i class="zmdi zmdi-accounts"></i>{{ trans('settings.users') }}</a>
+                        <a href="{{ baseUrl('/settings/users') }}" class="text-button"><i class="fa fa-users"></i>{{ trans('settings.users') }}</a>
                     </div>
                 </div>
             </div>

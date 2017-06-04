@@ -21,7 +21,7 @@
         <h6 class="text-muted">{{ trans('entities.pages_attachments') }}</h6>
         @foreach($page->attachments as $attachment)
             <div class="attachment">
-                <a href="{{ $attachment->getUrl() }}" @if($attachment->external) target="_blank" @endif><i class="zmdi zmdi-{{ $attachment->external ? 'open-in-new' : 'file' }}"></i>{{ $attachment->name }}</a>
+                <a href="{{ $attachment->getUrl() }}" @if($attachment->external) target="_blank" @endif><i class="fa fa-{{ $attachment->external ? 'external-link' : 'file-text' }}"></i>{{ $attachment->name }}</a>
             </div>
         @endforeach
     @endif
@@ -41,24 +41,24 @@
     <ul class="sidebar-page-list menu">
 
         @if (userCan('view', $book))
-            <li class="book-header"><a href="{{ $book->getUrl() }}" class="book {{ $current->matches($book)? 'selected' : '' }}"><i class="zmdi zmdi-book"></i>{{$book->name}}</a></li>
+            <li class="book-header"><a href="{{ $book->getUrl() }}" class="book {{ $current->matches($book)? 'selected' : '' }}"><i class="fa fa-book"></i>{{$book->name}}</a></li>
         @endif
 
         @foreach($sidebarTree as $bookChild)
             <li class="list-item-{{ $bookChild->getClassName() }} {{ $bookChild->getClassName() }} {{ $bookChild->isA('page') && $bookChild->draft ? 'draft' : '' }}">
                 <a href="{{ $bookChild->getUrl() }}" class="{{ $bookChild->getClassName() }} {{ $current->matches($bookChild)? 'selected' : '' }}">
-                    @if($bookChild->isA('chapter'))<i class="zmdi zmdi-collection-bookmark"></i>@else <i class="zmdi zmdi-file-text"></i>@endif{{ $bookChild->name }}
+                    @if($bookChild->isA('chapter'))<i class="fa fa-bookmark"></i>@else <i class="fa fa-file-text"></i>@endif{{ $bookChild->name }}
                 </a>
 
                 @if($bookChild->isA('chapter') && count($bookChild->pages) > 0)
                     <p class="text-muted chapter-toggle @if($bookChild->matchesOrContains($current)) open @endif">
-                        <i class="zmdi zmdi-caret-right"></i> <i class="zmdi zmdi-file-text"></i> <span>{{ trans('entities.x_pages', ['count' => $bookChild->pages->count()]) }}</span>
+                        <i class="fa fa-caret-right"></i> <i class="fa fa-file-text"></i> <span>{{ trans('entities.x_pages', ['count' => $bookChild->pages->count()]) }}</span>
                     </p>
                     <ul class="menu sub-menu inset-list @if($bookChild->matchesOrContains($current)) open @endif">
                         @foreach($bookChild->pages as $childPage)
                             <li class="list-item-page {{ $childPage->isA('page') && $childPage->draft ? 'draft' : '' }}">
                                 <a href="{{ $childPage->getUrl() }}" class="page {{ $current->matches($childPage)? 'selected' : '' }}">
-                                    <i class="zmdi zmdi-file-text"></i> {{ $childPage->name }}
+                                    <i class="fa fa-file-text"></i> {{ $childPage->name }}
                                 </a>
                             </li>
                         @endforeach

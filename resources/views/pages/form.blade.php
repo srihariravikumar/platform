@@ -9,25 +9,25 @@
             <div class="row">
                 <div class="col-sm-4 faded">
                     <div class="action-buttons text-left">
-                        <a href="{{ back()->getTargetUrl() }}" class="text-button text-primary"><i class="zmdi zmdi-arrow-left"></i>{{ trans('common.back') }}</a>
-                        <a href="{{ baseUrl('/') }}" class="text-button text-primary"><i class="zmdi zmdi-home"></i>Home</a>
+                        <a href="{{ back()->getTargetUrl() }}" class="text-button text-primary"><i class="fa fa-arrow-left"></i>{{ trans('common.back') }}</a>
+                        <a href="{{ baseUrl('/') }}" class="text-button text-primary"><i class="fa fa-home"></i>Home</a>
                         <a href="#" class="text-button text-primary">Editing as </a><img style="margin-bottom:-10px" class="avatar" src="https://s.gravatar.com/avatar/{{ md5($currentUser->email) }}?d=retro&r=x&s=120">
                     </div>
                 </div>
                 <div class="col-sm-4 faded text-center">
 
                     <div ng-show="draftsEnabled" dropdown class="dropdown-container draft-display">
-                        <a dropdown-toggle class="text-primary text-button"><span class="faded-text" ng-bind="draftText"></span>&nbsp; <i class="zmdi zmdi-more-vert"></i></a>
-                        <i class="zmdi zmdi-check-circle text-pos draft-notification" ng-class="{visible: draftUpdated}"></i>
+                        <a dropdown-toggle class="text-primary text-button"><span class="faded-text" ng-bind="draftText"></span>&nbsp; <i class="fa fa-ellipsis-v"></i></a>
+                        <i class="fa fa-check-circle text-pos draft-notification" ng-class="{visible: draftUpdated}"></i>
                         <ul>
                             <li>
-                                <a ng-click="forceDraftSave()" class="text-pos"><i class="zmdi zmdi-save"></i>{{ trans('entities.pages_edit_save_draft') }}</a>
+                                <a ng-click="forceDraftSave()" class="text-pos"><i class="fa fa-cloud"></i>{{ trans('entities.pages_edit_save_draft') }}</a>
                             </li>
                             <li ng-if="isNewPageDraft">
-                                <a href="{{ $model->getUrl('/delete') }}" class="text-neg"><i class="zmdi zmdi-delete"></i>{{ trans('entities.pages_edit_delete_draft') }}</a>
+                                <a href="{{ $model->getUrl('/delete') }}" class="text-neg"><i class="fa fa-trash"></i>{{ trans('entities.pages_edit_delete_draft') }}</a>
                             </li>
                             <li>
-                                <a type="button" ng-if="isUpdateDraft" ng-click="discardDraft()" class="text-neg"><i class="zmdi zmdi-close-circle"></i>{{ trans('entities.pages_edit_discard_draft') }}</a>
+                                <a type="button" ng-if="isUpdateDraft" ng-click="discardDraft()" class="text-neg"><i class="fa fa-times-circle-o"></i>{{ trans('entities.pages_edit_discard_draft') }}</a>
                             </li>
                         </ul>
                     </div>
@@ -35,7 +35,7 @@
                 <div class="col-sm-4 faded">
                     <div class="action-buttons" ng-cloak>
                         <div dropdown class="dropdown-container">
-                            <a dropdown-toggle class="text-primary text-button"><i class="zmdi zmdi-edit"></i> <span ng-bind="(changeSummary | limitTo:16) + (changeSummary.length>16?'...':'') || '{{ trans('entities.pages_edit_set_changelog') }}'"></span></a>
+                            <a dropdown-toggle class="text-primary text-button"><i class="fa fa-pencil"></i> <span ng-bind="(changeSummary | limitTo:16) + (changeSummary.length>16?'...':'') || '{{ trans('entities.pages_edit_set_changelog') }}'"></span></a>
                             <ul class="wide">
                                 <li class="padded">
                                     <p class="text-muted">{{ trans('entities.pages_edit_enter_changelog_desc') }}</p>
@@ -44,7 +44,7 @@
                             </ul>
                         </div>
 
-                        <button type="submit" id="save-button" class="text-button text-pos"><i class="zmdi zmdi-floppy"></i>{{ trans('entities.pages_save') }}</button>
+                        <button type="submit" id="save-button" class="text-button text-pos"><i class="fa fa-cloud"></i>{{ trans('entities.pages_save') }}</button>
                     </div>
                 </div>
             </div>
@@ -81,9 +81,9 @@
                     <div class="editor-toolbar">
                         <span class="float left">{{ trans('entities.pages_md_editor') }}</span>
                         <div class="float right buttons">
-                            <button class="text-button" type="button" data-action="insertImage"><i class="zmdi zmdi-image"></i>{{ trans('entities.pages_md_insert_image') }}</button>
+                            <button class="text-button" type="button" data-action="insertImage"><i class="fa fa-picture-o"></i>{{ trans('entities.pages_md_insert_image') }}</button>
                             &nbsp;|&nbsp;
-                            <button class="text-button" type="button" data-action="insertEntityLink"><i class="zmdi zmdi-link"></i>{{ trans('entities.pages_md_insert_link') }}</button>
+                            <button class="text-button" type="button" data-action="insertEntityLink"><i class="fa fa-link"></i>{{ trans('entities.pages_md_insert_link') }}</button>
                         </div>
                     </div>
 
