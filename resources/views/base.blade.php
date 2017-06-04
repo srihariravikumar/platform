@@ -18,8 +18,8 @@
     <link rel="stylesheet" media="print" href="https://unpkg.com/doctub@12.0.0/css/core-bundle-1.css">
     <link rel="stylesheet" href="https://unpkg.com/doctub@12.0.0/css/fa-doctub.css">
 
-    <script src="https://unpkg.com/doctub@12.0.0/js/doctub@12.0.0-query.min.js"></script>
-    <script src="https://unpkg.com/doctub@12.0.0/js/doctub@12.0.0-query-ui.min.js"></script>
+    <script src="https://unpkg.com/doctub@12.0.0/js/doctub-query.min.js"></script>
+    <script src="https://unpkg.com/doctub@12.0.0/js/doctub-query-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
