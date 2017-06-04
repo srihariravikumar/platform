@@ -16,3 +16,10 @@
     <script src="https://unpkg.com/doctub@12.0.0/js/doctub-query.min.js"></script>
     <script src="https://unpkg.com/doctub@12.0.0/js/doctub-query-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
+    
+    @include('partials/custom-styles')
+
+    <!-- Custom user content -->
+    @if(setting('app-custom-head'))
+        {!! setting('app-custom-head') !!}
+    @endif
