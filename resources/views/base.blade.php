@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="@yield('body-class')">
 <head>
-    <title>{{ isset($pageTitle) ? $pageTitle . ' | ' : '' }}{{ setting('app-name') }}</title>
+    <title>{{ $version }}</title>
 
     <meta name="viewport" content="width=device-width">
     <meta name="token" content="{{ csrf_token() }}">
