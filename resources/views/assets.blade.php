@@ -9,13 +9,13 @@
     <link rel="assets" href="https://unpkg.com">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="{{ cdnUrl() }}/yoginth" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://unpkg.com/doctub@12.0.0/css/core-bundle.css">
-    <link rel="stylesheet" media="print" href="https://unpkg.com/doctub@12.0.0/css/core-bundle-1.css">
-    <link rel="stylesheet" href="https://unpkg.com/doctub@12.0.0/css/fa-doctub.css">
+    <link rel="icon" href="{{ cdnUrl() }}/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="{{ cdnUrl() }}/css/core-bundle.css">
+    <link rel="stylesheet" media="print" href="{{ cdnUrl() }}/css/core-bundle-1.css">
+    <link rel="stylesheet" href="{{ cdnUrl() }}/css/fa-doctub.css">
 
-    <script src="https://unpkg.com/doctub@12.0.0/js/doctub-query.min.js"></script>
-    <script src="https://unpkg.com/doctub@12.0.0/js/doctub-query-ui.min.js"></script>
+    <script src="{{ cdnUrl() }}/js/doctub-query.min.js"></script>
+    <script src="{{ cdnUrl() }}/js/doctub-query-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
     
     @include('partials/custom-styles')

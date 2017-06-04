@@ -1,4 +1,4 @@
-<script src="https://unpkg.com/doctub@12.0.0/js/highlight.min.js"></script>
+<script src="{{ cdnUrl() }}/js/highlight.min.js"></script>
 <script>
     $(function() {
         var aCodes = document.getElementsByTagName('pre');

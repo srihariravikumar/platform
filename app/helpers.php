@@ -180,6 +180,6 @@ function sortUrl($path, $data, $overrideData = [])
 
 function cdnUrl(){
     
-    return "https://yoginth.com";
+    return "https://unpkg.com/doctub@12.0.0";
     
 }

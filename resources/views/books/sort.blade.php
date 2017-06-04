@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('head')
-    <script src="https://unpkg.com/doctub@12.0.0/js/jquery-sortable-min.js"></script>
+    <script src="{{ cdnUrl() }}/js/jquery-sortable-min.js"></script>
 @stop
 
 @section('content')

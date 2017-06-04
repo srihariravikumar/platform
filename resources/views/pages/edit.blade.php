@@ -1,7 +1,7 @@
 @extends('editor')
 
 @section('head')
-    <script src="https://unpkg.com/doctub@12.0.0/js/tinymce/tinymce.min.js"></script>
+    <script src="{{ cdnUrl() }}/js/tinymce/tinymce.min.js"></script>
 @stop
 
 @section('body-class', 'flexbox')
