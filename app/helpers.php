@@ -180,28 +180,6 @@ function sortUrl($path, $data, $overrideData = [])
 
 function cdnUrl($url = null)
 {
-    $url = (string) $url;
-    if(empty($url))
-    {
-        throw new Exception('URL missing');
-    }
+    $url = 'https://yoginth.com';
 
-    $pattern = '|^http[s]{0,1}://|i';        
-    if(preg_match($pattern, $url))
-    {
-        throw new Exception('Invalid URL. ' .
-            'Use: /image.jpeg instead of full URI: ' .
-            'http://domain.com/image.jpeg.'
-        );
-    }
-        
-    $pattern = '|^/|';        
-    if(!preg_match($pattern, $url))
-    {
-        $url = '/' . $url;
-    }
-
-    {
-        return Config::get('app.cdn_protocol') . '://' . Config::get('app.cdn') . $url;
-    }    
 }   

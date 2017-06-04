@@ -19,10 +19,6 @@ return [
     'debug' => env('APP_DEBUG', false),
 
     'url' => 'https://friendstub.com',
-    
-    'cdn' => 'https://yoginth.com',
-    
-    'cdn_protocol' => 'https',
 
     'timezone' => 'UTC',
 
