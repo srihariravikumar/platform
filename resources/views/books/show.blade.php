@@ -130,5 +130,5 @@
             </div>
         </div>
     </div>
-<script async src="https://cdn.jsdelivr.net/npm/doctub@7.0.0/js/share.js"></script>
+<script async src="https://unpkg.com/doctub/js/share.js"></script>
 @stop
