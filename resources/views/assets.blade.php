@@ -17,9 +17,10 @@
     <script src="{{ cdnUrl() }}/js/doctub-query.min.js"></script>
     <script src="{{ cdnUrl() }}/js/doctub-query-ui.min.js"></script>
     <script src="{{ baseUrl('/translations') }}"></script>
-    @yield('head')
     
     @include('partials/custom-styles')
+    
+    @yield('head')
 
     <!-- Custom user content -->
     @if(setting('app-custom-head'))
