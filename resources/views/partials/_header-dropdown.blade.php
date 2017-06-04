@@ -18,7 +18,7 @@
         <li>
             <a href="{{ baseUrl('/settings') }}"><i style="color:#000" class="fa fa-cog fa-hc-fw fa-hc-lg"></i>Admin</a>
             <a href="https://github.com/doctub/platform" target="_blank"><i style="color:#ff3d00" class="fa fa-code fa-hc-fw fa-hc-lg"></i>Code Base</a>
-            <a href="https://ide.c9.io/yoginth/doctub" target="_blank"><i style="color:#ff3d00" class="fa fa-briefcase-check fa-hc-fw fa-hc-lg"></i>Workspace</a>
+            <a href="https://ide.c9.io/yoginth/doctub" target="_blank"><i style="color:#ff3d00" class="fa fa-briefcase fa-hc-fw fa-hc-lg"></i>Workspace</a>
             <a href="https://doctub-cd.deployhq.com/" target="_blank"><i style="color:#00bfa5" class="fa fa-server fa-hc-fw fa-hc-lg"></i>DeployHQ</a>            
         </li>
         @endif
