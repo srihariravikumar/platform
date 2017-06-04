@@ -18,7 +18,7 @@
             <div class="col-sm-6">
                 <a href="{{ baseUrl('/') }}" class="logo">
                     @if(setting('app-logo', '') !== 'none')
-                        <img class="logo-image" src="https://unpkg.com/doctub@12.0.0/images/logo-250.png" alt="Logo">
+                        <img class="logo-image" src="{{ cdnUrl() }}/images/logo-250.png" alt="Logo">
                     @endif
                     @if (setting('app-name-header'))
                         <span class="logo-text"><b>Doc</b><i>Tub</i></span>
@@ -41,6 +41,6 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="https://unpkg.com/doctub@12.0.0/js-bundle.js"></script>
+<script src="{{ cdnUrl() }}/js/js-bundle.js"></script>
 </body>
 </html>

@@ -16,7 +16,7 @@
                 <div class="col-lg-4 col-sm-4" ng-non-bindable>
                     <a href="{{ baseUrl('/') }}" class="logo">
                         @if(setting('app-logo', '') !== 'none')
-                            <img class="logo-image" src="https://unpkg.com/doctub@12.0.0/images/logo-250.png" alt="Logo">
+                            <img class="logo-image" src="{{ cdnUrl() }}/images/logo-250.png" alt="Logo">
                         @endif
                         @if (setting('app-name-header'))
                             <span class="logo-text"><b>Doc</b><i>Tub</i></span>
@@ -60,7 +60,7 @@
         </div>
     </div>
 @yield('bottom')
-<script src="https://unpkg.com/doctub@12.0.0/js/js-bundle.js"></script>
+<script src="{{ cdnUrl() }}/js/js-bundle.js"></script>
 @yield('scripts')
 </body>
 </html>

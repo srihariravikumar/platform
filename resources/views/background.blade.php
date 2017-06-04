@@ -11,6 +11,6 @@
 <section class="container">
     @yield('content')
 </section>
-<script src="https://unpkg.com/doctub@12.0.0/js/js-bundle.js"></script>
+<script src="{{ cdnUrl() }}/js/js-bundle.js"></script>
 </body>
 </html>

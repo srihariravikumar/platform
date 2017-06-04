@@ -13,7 +13,7 @@
         @yield('content')
     </section>
 @yield('bottom')
-<script src="https://unpkg.com/doctub@12.0.0/js/js-bundle.js"></script>
+<script src="{{ cdnUrl() }}/js/js-bundle.js"></script>
 @yield('scripts')
 </body>
 </html>
