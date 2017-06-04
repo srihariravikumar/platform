@@ -20,8 +20,6 @@ return [
 
     'url' => 'https://friendstub.com',
     
-    'cdn' => 'https://unpkg.com/doctub@12.0.0',
-
     'timezone' => 'UTC',
 
     'locale' => env('APP_LANG', 'en'),
