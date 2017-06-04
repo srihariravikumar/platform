@@ -35,11 +35,11 @@
                 ])
             </div>
             <div class="col-md-4">
-                <h4 class="text-muted"><i style="color:#F05330" class="fa fa-rocket"></i> {{ trans('entities.pages_popular') }}</h4>
+                <h4 class="text-muted"><i style="color:#F05330" class="fa fa-fire"></i> {{ trans('entities.pages_popular') }}</h4>
                 @include('partials.entity-list', ['entities' => Views::getPopular(10, 0, [\BookStack\Page::class]), 'style' => 'compact'])
             </div>
             <div class="col-md-4">
-                <h4 class="text-muted"><i style="color:#F05330" class="fa fa-rocket"></i> {{ trans('entities.books_popular') }}</h4>
+                <h4 class="text-muted"><i style="color:#F05330" class="fa fa-fire"></i> {{ trans('entities.books_popular') }}</h4>
                 @include('partials.entity-list', ['entities' => Views::getPopular(5, 0, [\BookStack\Book::class]), 'style' => 'compact'])
 
                 <h4><a class="no-color" href="{{ baseUrl("/pages/recently-created") }}"><i class="fa fa-clock-o"></i> {{ trans('entities.recently_created_pages') }}</a></h4>
