@@ -14,10 +14,11 @@
 
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="https://cdn.jsdelivr.net/npm/doctub/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/doctub/css/core-bundle.min.css,npm/doctub/css/fa-doctub.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/doctub/css/core-bundle.min.css">
     <link rel="stylesheet" media="print" href="https://cdn.jsdelivr.net/npm/doctub/css/core-bundle-1.css">
 
     <script src="https://cdn.jsdelivr.net/npm/doctub/js/doctub-query.min.js"></script>
+    <script src="https://use.fontawesome.com/52c1037bbe.js"></script>
 
     <script src="{{ baseUrl('/translations') }}"></script>
 
