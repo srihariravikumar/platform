@@ -28,7 +28,7 @@
                             <i class="fa fa-book fa-hc-fw"></i> {{ $assetCounts['books'] }} {{ str_plural(trans('entities.book'), $assetCounts['books']) }}
                         </div>
                         <div class="text-chapter">
-                            <i class="fa fa-bookmark fa-hc-fw"></i> {{ $assetCounts['chapters'] }} {{ str_plural(trans('entities.chapter'), $assetCounts['chapters']) }}
+                            <i class="fa fa-files-o fa-hc-fw"></i> {{ $assetCounts['chapters'] }} {{ str_plural(trans('entities.chapter'), $assetCounts['chapters']) }}
                         </div>
                         <div class="text-page">
                             <i class="fa fa-file-text fa-hc-fw"></i> {{ $assetCounts['pages'] }} {{ str_plural(trans('entities.page'), $assetCounts['pages']) }}

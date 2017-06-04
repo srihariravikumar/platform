@@ -47,7 +47,7 @@
         @foreach($sidebarTree as $bookChild)
             <li class="list-item-{{ $bookChild->getClassName() }} {{ $bookChild->getClassName() }} {{ $bookChild->isA('page') && $bookChild->draft ? 'draft' : '' }}">
                 <a href="{{ $bookChild->getUrl() }}" class="{{ $bookChild->getClassName() }} {{ $current->matches($bookChild)? 'selected' : '' }}">
-                    @if($bookChild->isA('chapter'))<i class="fa fa-bookmark"></i>@else <i class="fa fa-file-text"></i>@endif{{ $bookChild->name }}
+                    @if($bookChild->isA('chapter'))<i class="fa fa-files-o"></i>@else <i class="fa fa-file-text"></i>@endif{{ $bookChild->name }}
                 </a>
 
                 @if($bookChild->isA('chapter') && count($bookChild->pages) > 0)

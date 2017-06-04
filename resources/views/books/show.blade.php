@@ -75,7 +75,7 @@
                             <p>
                                 <a href="{{ $book->getUrl('/page/create') }}" class="text-page"><i class="fa fa-file-text"></i>{{ trans('entities.books_empty_create_page') }}</a>
                                 &nbsp;&nbsp;<em class="text-muted">-{{ trans('entities.books_empty_or') }}-</em>&nbsp;&nbsp;&nbsp;
-                                <a href="{{ $book->getUrl('/chapter/create') }}" class="text-chapter"><i class="fa fa-bookmark"></i>{{ trans('entities.books_empty_add_chapter') }}</a>
+                                <a href="{{ $book->getUrl('/chapter/create') }}" class="text-chapter"><i class="fa fa-files-o"></i>{{ trans('entities.books_empty_add_chapter') }}</a>
                             </p>
                             <hr>
                         @endif

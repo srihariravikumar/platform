@@ -7,7 +7,7 @@
             <span class="text-muted">&nbsp;&nbsp;&raquo;&nbsp;&nbsp;</span>
         @endif
         <a href="{{ $chapter->getUrl() }}" class="text-chapter entity-list-item-link">
-            <i class="fa fa-bookmark"></i><span class="entity-list-item-name">{{ $chapter->name }}</span>
+            <i class="fa fa-files-o"></i><span class="entity-list-item-name">{{ $chapter->name }}</span>
         </a>
     </h4>
     @if(isset($chapter->searchSnippet))

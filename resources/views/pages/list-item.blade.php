@@ -18,9 +18,9 @@
                 <a class="text-book" href="{{ $page->book->getUrl() }}"><i class="fa fa-book"></i>{{ $page->book->getShortName(30) }}</a>
                 <br>
                 @if($page->chapter)
-                    <a class="text-chapter" href="{{ $page->chapter->getUrl() }}"><i class="fa fa-bookmark"></i>{{ $page->chapter->getShortName(30) }}</a>
+                    <a class="text-chapter" href="{{ $page->chapter->getUrl() }}"><i class="fa fa-files-o"></i>{{ $page->chapter->getShortName(30) }}</a>
                 @else
-                    <i class="fa fa-bookmark"></i> {{ trans('entities.pages_not_in_chapter') }}
+                    <i class="fa fa-files-o"></i> {{ trans('entities.pages_not_in_chapter') }}
                 @endif
             </div>
         </div>

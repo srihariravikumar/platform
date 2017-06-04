@@ -5,7 +5,7 @@
     @endif
     @if($page->hasChapter() && userCan('view', $page->chapter))
         <a href="{{ $page->chapter->getUrl() }}" class="text-chapter text-button">
-            <i class="fa fa-bookmark"></i>
+            <i class="fa fa-files-o"></i>
             {{ $page->chapter->getShortName() }}
         </a>
         <img src="{{ cdnUrl() }}/images/arrow.svg" style="height:11px;margin-bottom:-1px"> 

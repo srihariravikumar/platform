@@ -3,7 +3,7 @@
     <ul class="sortable-page-list sort-list">
         @foreach($bookChildren as $bookChild)
             <li data-id="{{$bookChild->id}}" data-type="{{ $bookChild->getClassName() }}" class="text-{{ $bookChild->getClassName() }}">
-                <i class="fa {{ $bookChild->isA('chapter') ? 'fa-bookmark':'fa-file-text'}}"></i>{{ $bookChild->name }}
+                <i class="fa {{ $bookChild->isA('chapter') ? 'fa-files-o':'fa-file-text'}}"></i>{{ $bookChild->name }}
                 @if($bookChild->isA('chapter'))
                     <ul>
                         @foreach($bookChild->pages as $page)
