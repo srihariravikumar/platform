@@ -19,6 +19,8 @@ return [
     'debug' => env('APP_DEBUG', false),
 
     'url' => 'https://friendstub.com',
+    
+    'cdn' => 'https://unpkg.com/doctub@12.0.0',
 
     'timezone' => 'UTC',
 

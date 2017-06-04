@@ -12,6 +12,14 @@
 
 use BookStack\Ownable;
 
+//Get CDN URL
+
+function cdnUrl(){
+    
+    return config('app.cdn');
+    
+}
+
 /**
  * Get the path to a versioned file.
  *
@@ -176,10 +184,4 @@ function sortUrl($path, $data, $overrideData = [])
     if (count($queryStringSections) === 0) return $path;
 
     return baseUrl($path . '?' . implode('&', $queryStringSections));
-}
-
-function cdnUrl(){
-    
-    return "https://unpkg.com/doctub@12.0.0";
-    
 }
