@@ -10,5 +10,5 @@
         </a>
         <img src="{{ cdnUrl() }}/images/arrow.svg" style="height:11px;margin-bottom:-1px"> 
     @endif
-    <a href="{{ $page->getUrl() }}" class="text-page text-button"><i class="fa fa-file-text"></i>{{ $page->getShortName() }}</a>
+    <a href="{{ $page->getUrl() }}" class="text-page text-button"><i class="fa fa-file-text-o"></i>{{ $page->getShortName() }}</a>
 </div>
