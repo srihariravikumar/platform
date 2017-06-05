@@ -68,7 +68,7 @@
                         <p class="text-muted">{{ trans('entities.chapters_empty') }}</p>
                         <p>
                             @if(userCan('page-create', $chapter))
-                                <a href="{{ $chapter->getUrl('/create-page') }}" class="text-page"><i class="fa fa-file-text"></i>{{ trans('entities.books_empty_create_page') }}</a>
+                                <a href="{{ $chapter->getUrl('/create-page') }}" class="text-page"><i class="fa fa-file-text-o"></i>{{ trans('entities.books_empty_create_page') }}</a>
                             @endif
                             @if(userCan('page-create', $chapter) && userCan('book-update', $book))
                                 &nbsp;&nbsp;<em class="text-muted">-{{ trans('entities.books_empty_or') }}-</em>&nbsp;&nbsp;&nbsp;
