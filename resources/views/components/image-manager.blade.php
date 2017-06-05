@@ -14,7 +14,7 @@
                         <div class="image-manager-header row faded-small nav-tabs">
                             <div class="col-xs-4 tab-item" title="{{ trans('components.image_all_title') }}" ng-class="{selected: (view=='all')}" ng-click="setView('all')"><i class="fa fa-picture-o"></i> {{ trans('components.image_all') }}</div>
                             <div class="col-xs-4 tab-item" title="{{ trans('components.image_book_title') }}" ng-class="{selected: (view=='book')}" ng-click="setView('book')"><i class="fa fa-book text-book"></i> {{ trans('entities.book') }}</div>
-                            <div class="col-xs-4 tab-item" title="{{ trans('components.image_page_title') }}" ng-class="{selected: (view=='page')}" ng-click="setView('page')"><i class="fa fa-file-text text-page"></i> {{ trans('entities.page') }}</div>
+                            <div class="col-xs-4 tab-item" title="{{ trans('components.image_page_title') }}" ng-class="{selected: (view=='page')}" ng-click="setView('page')"><i class="fa fa-file-text-o text-page"></i> {{ trans('entities.page') }}</div>
                         </div>
                     </div>
                     <div ng-show="view === 'all'" >
