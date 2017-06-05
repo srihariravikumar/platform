@@ -8,7 +8,7 @@
                     <ul>
                         @foreach($bookChild->pages as $page)
                             <li data-id="{{$page->id}}" class="text-page" data-type="page">
-                                <i class="fa fa-file-text"></i>
+                                <i class="fa fa-file-text-o"></i>
                                 {{ $page->name }}
                             </li>
                         @endforeach
