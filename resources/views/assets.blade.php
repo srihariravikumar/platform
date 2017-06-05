@@ -21,8 +21,6 @@
     
     @include('partials/custom-styles')
 
-
-    <!-- Custom user content -->
     @if(setting('app-custom-head'))
         {!! setting('app-custom-head') !!}
     @endif
