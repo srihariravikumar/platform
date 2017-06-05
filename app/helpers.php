@@ -16,7 +16,7 @@ use BookStack\Ownable;
 
 function cdnUrl(){
     
-    return "https://unpkg.com/doctub.cdn@1.0.0";
+    return "https://unpkg.com/doctub.cdn@.0.0";
     
 }
 
