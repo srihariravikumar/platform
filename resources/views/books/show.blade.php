@@ -73,7 +73,7 @@
                         @else
                             <p class="text-muted">{{ trans('entities.books_empty_contents') }}</p>
                             <p>
-                                <a href="{{ $book->getUrl('/page/create') }}" class="text-page"><i class="fa fa-file-text"></i>{{ trans('entities.books_empty_create_page') }}</a>
+                                <a href="{{ $book->getUrl('/page/create') }}" class="text-page"><i class="fa fa-file-text-o"></i>{{ trans('entities.books_empty_create_page') }}</a>
                                 &nbsp;&nbsp;<em class="text-muted">-{{ trans('entities.books_empty_or') }}-</em>&nbsp;&nbsp;&nbsp;
                                 <a href="{{ $book->getUrl('/chapter/create') }}" class="text-chapter"><i class="fa fa-files-o"></i>{{ trans('entities.books_empty_add_chapter') }}</a>
                             </p>
