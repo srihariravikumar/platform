@@ -1,6 +1,6 @@
 <div class="page {{$page->draft ? 'draft' : ''}} entity-list-item" data-entity-type="page" data-entity-id="{{$page->id}}">
     <h4>
-        <a href="{{ $page->getUrl() }}" class="text-page entity-list-item-link"><i class="fa fa-file-text"></i><span class="entity-list-item-name">{{ $page->name }}</span></a>
+        <a href="{{ $page->getUrl() }}" class="text-page entity-list-item-link"><i class="fa fa-file-text-o"></i><span class="entity-list-item-name">{{ $page->name }}</span></a>
     </h4>
 
     @if(isset($page->searchSnippet))
