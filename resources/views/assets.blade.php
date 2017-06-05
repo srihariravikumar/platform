@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ cdnUrl() }}/css/core-bundle.css">
     <link rel="stylesheet" media="print" href="{{ cdnUrl() }}/css/core-bundle-1.css">
     <link rel="stylesheet" href="{{ cdnUrl() }}/css/fa-doctub.css">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script src="{{ cdnUrl() }}/js/doctub-query.min.js"></script>
     <script src="{{ cdnUrl() }}/js/doctub-query-ui.min.js"></script>
