@@ -5,9 +5,7 @@
     
     @include('/assets')
     
-    @if(setting('app-custom-head') && \Route::currentRouteName() !== 'settings')
-        {!! setting('app-custom-head') !!}
-    @endif
+    @yield('head')
 
 </head>
 <body class="@yield('body-class')" ng-app="bookStack">
