@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="{{ cdnUrl() }}/css/core-bundle.css">
     <link rel="stylesheet" media="print" href="{{ cdnUrl() }}/css/core-bundle-1.css">
     <link rel="stylesheet" href="{{ cdnUrl() }}/css/fa-doctub.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     
 
     <script src="{{ cdnUrl() }}/js/doctub-query.min.js"></script>
