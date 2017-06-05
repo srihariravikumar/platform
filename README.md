@@ -1,4 +1,4 @@
-# Source Code of DocTub Platform <img src="https://travis-ci.org/doctub/platform.svg?branch=master"></img> <a href="https://david-dm.org/doctub/platform" title="dependencies status"><img src="https://david-dm.org/doctub/platform/status.svg"/></a><a href="https://david-dm.org/doctub/platform?type=dev" title="devDependencies status"><img src="https://david-dm.org/doctub/platform/dev-status.svg"/></a>
+# Source Code of DocTub Platform <img src="https://travis-ci.org/doctub/platform.svg?branch=master"></img> <a href="https://david-dm.org/doctub/platform" title="dependencies status"><img src="https://david-dm.org/doctub/platform/status.svg"/></a>
 
 ## About DocTub
 
